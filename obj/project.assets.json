@@ -1178,23 +1178,28 @@
       "Microsoft.EntityFrameworkCore >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.sqlite >= *"
+      "Microsoft.EntityFrameworkCore.sqlite >= 5.0.7"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kelvin\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kelvin\\Desktop\\Vacunate RD\\Vacunate RD.csproj",
+      "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\Vacunate RD.csproj",
       "projectName": "Vacunate RD",
-      "projectPath": "C:\\Users\\Kelvin\\Desktop\\Vacunate RD\\Vacunate RD.csproj",
-      "packagesPath": "C:\\Users\\Kelvin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kelvin\\Desktop\\Vacunate RD\\obj\\",
+      "projectPath": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\Vacunate RD.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kelvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1206,6 +1211,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1217,6 +1223,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -1236,7 +1243,7 @@
           },
           "Microsoft.EntityFrameworkCore.sqlite": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[5.0.7, )"
           }
         },
         "imports": [
@@ -1257,7 +1264,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
