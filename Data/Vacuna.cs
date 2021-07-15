@@ -6,14 +6,9 @@ namespace Vacunate_RD.Data
     public class Vacuna
     {   
         [Key]
-        public int Id { get; set;}
+        public int id { get; set; }
         [Required]
-        public int IdPersona { get; set;}
-        public int idTipoVacuna  { get; set;} 
-        [Required]
-        public DateTime Fecha {get; set;}
-        [Required]
-        public int idProvincia { get; set; }
-
+        public string Nombre { get; set; }
+        
  }
 }

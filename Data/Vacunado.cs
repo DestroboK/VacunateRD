@@ -4,23 +4,17 @@ using System.ComponentModel.DataAnnotations;
 namespace Vacunate_RD.Data
 {
     public class Vacunado
-    {   
-        [Key]
-        public int Id { get; set;}
-
-        [StringLength(13)]
+    {
+        [Key] 
+        public int Id { get; set; }
         public string Cedula { get; set; }
-
-        [Required]
-        [StringLength(100)]
         public string Nombre { get; set; }
-
-        [Required]
-        [StringLength(100)]
         public string Apellido { get; set; }
-        public string Teléfono { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public int Dosis { get; set; }
-
- }
+        public string Telefono { get; set; }
+        public string Fecha_nacimiento { get; set; }
+        public int TipoVacuna { get; set; }
+        public int Provincia { get; set; }
+        public string Fecha_Dosis { get; set; }
+        public string signo_zodiaco { get; set; }
+    }
 }
