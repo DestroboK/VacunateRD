@@ -82,7 +82,7 @@ using Vacunate_RD.Data;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/configuracion")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/confi")]
     public partial class Confi : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -91,7 +91,7 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 58 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Confi.razor"
+#line 57 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Confi.razor"
       
     string Provincia = "";
     int valor = 0;
@@ -140,6 +140,62 @@ using Vacunate_RD.Data;
             mctx.Entry(editarInfr).Property(x => x.Nombre).IsModified = true;
             mctx.SaveChanges();
             valor = 1;
+        }
+    }
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 161 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Confi.razor"
+      
+    string Vacuna = "";
+    int valo = 0;
+    //int id;
+    string prue = "";
+    public void Registr(String valor1)
+    {
+        Data.Vacuna Vacu = new Data.Vacuna();
+        Vacu.Nombre = valor1;
+
+        using (VacunateRDContext context = new VacunateRDContext())
+        {
+            context.Add(Vacu);
+            context.SaveChanges();
+            valo = 1;
+        }
+
+    }
+    public void ValdiarDat()
+    {
+
+        if (Vacuna.Length > 0)
+        {
+            Registr(Vacuna);
+        }
+        else
+        {
+            valo = 5;
+        }
+    }
+    List<Vacuna> GetVacuna() => new VacunateRDContext().Vacunas.ToList();
+
+    public void Actualiza()
+    {
+        int noID = int.Parse(prue);
+        using (VacunateRDContext mctx = new VacunateRDContext())
+        {
+            var editarInfr = new Vacuna();
+
+            editarInfr.id = noID;
+
+
+            editarInfr.Nombre = Vacuna;
+
+            mctx.Vacunas.Attach(editarInfr);
+            mctx.Entry(editarInfr).Property(x => x.Nombre).IsModified = true;
+            mctx.SaveChanges();
+            valo = 1;
         }
     }
 
