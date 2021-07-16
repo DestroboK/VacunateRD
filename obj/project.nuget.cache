@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "uR7hUihmGTWVxT5CgkkP1OLwOQhvwvyLes54IFqDLyfFW91qPtiVo1xUo4CIDbpW/cGkTDHlTyT+Mbzg4n+6FQ==",
+=======
+  "dgSpecHash": "2vNCsche/+QbNQ8bieCOFzUXZVkUE8Pfwh+raNYba5Ki8BN1UNvTAoarpGDCrVHWBnCYz0L0NvMMNSVcRahioQ==",
+>>>>>>> f9cd4d679c22d6a639b7966f7c01817926b326bf
   "success": true,
   "projectFilePath": "C:\\Users\\Kelvin\\Desktop\\Vacunate RD\\Vacunate RD.csproj",
   "expectedPackageFiles": [
