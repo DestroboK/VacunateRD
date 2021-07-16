@@ -56,7 +56,6 @@ C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.Mv
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorComponent.input.cache
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\InformacionPersonal.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
@@ -70,7 +69,6 @@ C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.Ta
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorCoreGenerate.cache
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\InformacionPersonal.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
@@ -182,3 +180,5 @@ C:\Users\Kelvin\Desktop\Vacunate RD\obj\Debug\netcoreapp3.1\Vacunate RD.genrunti
 C:\Users\Kelvin\Desktop\Vacunate RD\obj\Debug\netcoreapp3.1\Vacunate RD.csproj.AssemblyReference.cache
 C:\Users\Kelvin\Desktop\Vacunate RD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorComponent.output.cache
 C:\Users\Kelvin\Desktop\Vacunate RD\obj\Debug\netcoreapp3.1\scopedcss\bundle\Vacunate RD.styles.css
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Confi.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Confi.razor.g.cs

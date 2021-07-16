@@ -1,0 +1,112 @@
+@page "/configuracion"
+@using Vacunate_RD.Data;
+
+
+
+ <h1 style=" text-align: center; color: white; height: 65px">Provincias</h1>
+
+<div class="container">
+
+    <br>
+    <br>
+    <h4>ID: </h4>
+    <input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
+    <br>
+    <h4>Provincia: </h4>
+    <input style="width: 50%;" type="text" class="form-control" @bind-value="Provincia" placeholder="Digite el nombre de la provincia">
+    <br>
+    <button class="btn btn-primary" @onclick="ValdiarDatos">Registrar</button>
+    <button class="btn btn-warning" @onclick="Actualizar">Actualzar</button>
+</div>
+
+@if (@valor == 1)
+{
+    <div class="alert alert-success mt-2" role="alert">Procesado sastifactoria mente</div>
+}
+else if (@valor == 5)
+{
+    <div class="alert alert-danger" role="alert">Favor de ingresar la provincia que desea agregar</div>
+}
+
+<br>
+ <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (Provincia prov in GetProvincias())
+                {
+                    <tr>
+                        <td>@prov.id</td>
+                        <td>@prov.Nombre</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+@code{
+    string Provincia = "";
+    int valor = 0;
+    //int id;
+    string prueba = "";
+    public void Registrar(String valor1)
+    {
+        Data.Provincia prov = new Data.Provincia();
+        prov.Nombre = valor1;
+
+        using (VacunateRDContext context = new VacunateRDContext())
+        {
+            context.Add(prov);
+            context.SaveChanges();
+            valor = 1;
+        }
+
+    }
+    public void ValdiarDatos()
+    {
+
+        if (Provincia.Length > 0)
+        {
+            Registrar(Provincia);
+        }
+        else
+        {
+            valor = 5;
+        }
+    }
+    List<Provincia> GetProvincias() => new VacunateRDContext().Provincias.ToList();
+
+    public void Actualizar()
+    {
+        int noID = int.Parse(prueba);
+        using (VacunateRDContext mctx = new VacunateRDContext())
+        {
+            var editarInfr = new Provincia();
+
+            editarInfr.id = noID;
+
+
+            editarInfr.Nombre = Provincia;
+
+            mctx.Provincias.Attach(editarInfr);
+            mctx.Entry(editarInfr).Property(x => x.Nombre).IsModified = true;
+            mctx.SaveChanges();
+            valor = 1;
+        }
+    }
+}
+
+
+
+
