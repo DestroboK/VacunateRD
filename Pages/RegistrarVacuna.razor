@@ -1,12 +1,18 @@
 @page "/Registrar"
+<p>Id</p>
+<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
+<p>Cedula</p>
+<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
+<p>Nombre</p>
+<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
+<p>Apellido</p>
+<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
+<p>Telefono</p>
+<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
+Signo_Zodiacal
+<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
 
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-
+<p>Provincia</p>
 <EditForm Model ="GetProvincias">
 <InputSelect id= "GetProvincias"class="form-group" @bind-Value="id">
 @foreach (Provincia prov in GetProvincias)
@@ -15,9 +21,19 @@
     }
 </InputSelect>
 </EditForm>
+<p>Tipo de vacuna</p>
+<EditForm Model ="GetVacuna">
+<InputSelect id= "GetVacuna"class="form-group" @bind-Value="id">
+@foreach (Vacuna vac in GetVacuna)
+    {
+        <option value ="@vac.id">@vac.Nombre</option>
+    }
+</InputSelect>
+</EditForm>
 
 @code {
     List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
+     List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
     public string id="0";
     public string prueba;
       public class Games
