@@ -13,76 +13,76 @@ namespace Vacunate_RD.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 1 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 2 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 3 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 4 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 5 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 6 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 7 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 8 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using Vacunate_RD;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 9 "C:\Users\Kelvin\Desktop\Vacunate RD\_Imports.razor"
 using Vacunate_RD.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Confi.razor"
+#line 2 "C:\Users\Kelvin\Desktop\Vacunate RD\Pages\Confi.razor"
 using Vacunate_RD.Data;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/configuracion")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/confi")]
     public partial class Confi : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -91,7 +91,7 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 58 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Confi.razor"
+#line 58 "C:\Users\Kelvin\Desktop\Vacunate RD\Pages\Confi.razor"
       
     string Provincia = "";
     int valor = 0;

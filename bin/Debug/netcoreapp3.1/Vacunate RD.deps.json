@@ -35,19 +35,16 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.7",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.7",
+          "Syncfusion.Blazor.DropDowns": "19.2.0.47",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Core": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.OAuth": "3.1.0.0",
-          "Microsoft.AspNetCore.Authorization": "3.1.0.0",
           "Microsoft.AspNetCore.Authorization.Policy": "3.1.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "3.1.0.0",
-          "Microsoft.AspNetCore.Components": "3.1.0.0",
-          "Microsoft.AspNetCore.Components.Forms": "3.1.0.0",
           "Microsoft.AspNetCore.Components.Server": "3.1.0.0",
-          "Microsoft.AspNetCore.Components.Web": "3.1.0.0",
           "Microsoft.AspNetCore.Connections.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.CookiePolicy": "3.1.0.0",
           "Microsoft.AspNetCore.Cors": "3.1.0.0",
@@ -76,7 +73,6 @@
           "Microsoft.AspNetCore.Identity": "3.1.0.0",
           "Microsoft.AspNetCore.Localization": "3.1.0.0",
           "Microsoft.AspNetCore.Localization.Routing": "3.1.0.0",
-          "Microsoft.AspNetCore.Metadata": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "3.1.0.0",
@@ -147,7 +143,6 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.0.0",
           "Microsoft.Extensions.Options.DataAnnotations": "3.1.0.0",
           "Microsoft.Extensions.WebEncoders": "3.1.0.0",
-          "Microsoft.JSInterop": "3.1.0.0",
           "Microsoft.Net.Http.Headers": "3.1.0.0",
           "Microsoft.VisualBasic.Core": "10.0.5.0",
           "Microsoft.VisualBasic": "10.0.0.0",
@@ -317,6 +312,81 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/3.1.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "3.1.8",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42106"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components/3.1.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "3.1.8",
+          "Microsoft.AspNetCore.Components.Analyzers": "3.1.8",
+          "Microsoft.JSInterop": "3.1.8"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42106"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/3.1.8": {},
+      "Microsoft.AspNetCore.Components.Forms/3.1.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.8"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42106"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/3.1.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.8",
+          "Microsoft.AspNetCore.Components.Forms": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "Microsoft.JSInterop": "3.1.8"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42106"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/3.1.8": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42106"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {},
@@ -575,6 +645,28 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
+      "Microsoft.JSInterop/3.1.8": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.JSInterop.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42004"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.JSInterop.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.4",
@@ -693,6 +785,156 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
+      "Syncfusion.Blazor.Buttons/19.2.0.47": {
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.2.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Buttons.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Buttons.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.Core/19.2.0.47": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.8",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Syncfusion.Blazor.Themes": "19.2.0.47",
+          "Syncfusion.Licensing": "19.2.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Core.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Core.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.Data/19.2.0.47": {
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.2.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Data.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Data.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.DropDowns/19.2.0.47": {
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "19.2.0.47",
+          "Syncfusion.Blazor.Core": "19.2.0.47",
+          "Syncfusion.Blazor.Data": "19.2.0.47",
+          "Syncfusion.Blazor.Inputs": "19.2.0.47",
+          "Syncfusion.Blazor.Spinner": "19.2.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.DropDowns.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.DropDowns.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.Inputs/19.2.0.47": {
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.2.0.47",
+          "Syncfusion.Blazor.Data": "19.2.0.47",
+          "Syncfusion.Blazor.Popups": "19.2.0.47",
+          "Syncfusion.Blazor.Spinner": "19.2.0.47",
+          "Syncfusion.Blazor.SplitButtons": "19.2.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Inputs.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Inputs.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.Popups/19.2.0.47": {
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "19.2.0.47",
+          "Syncfusion.Blazor.Core": "19.2.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Popups.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Popups.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.Spinner/19.2.0.47": {
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.2.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Spinner.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Spinner.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.SplitButtons/19.2.0.47": {
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "19.2.0.47",
+          "Syncfusion.Blazor.Core": "19.2.0.47",
+          "Syncfusion.Blazor.Popups": "19.2.0.47",
+          "Syncfusion.Blazor.Spinner": "19.2.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.SplitButtons.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.SplitButtons.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.Themes/19.2.0.47": {
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Themes.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Themes.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.2.0.47": {
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.2.0.47",
+            "fileVersion": "19.2.0.47"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        }
+      },
       "System.Collections.Immutable/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {
@@ -785,12 +1027,6 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Authorization/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Authorization.dll": {}
-        },
-        "compileOnly": true
-      },
       "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Authorization.Policy.dll": {}
@@ -803,27 +1039,9 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Components/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Components.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.AspNetCore.Components.Forms/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Components.Forms.dll": {}
-        },
-        "compileOnly": true
-      },
       "Microsoft.AspNetCore.Components.Server/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Components.Server.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.AspNetCore.Components.Web/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Components.Web.dll": {}
         },
         "compileOnly": true
       },
@@ -992,12 +1210,6 @@
       "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Localization.Routing.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.AspNetCore.Metadata/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Metadata.dll": {}
         },
         "compileOnly": true
       },
@@ -1418,12 +1630,6 @@
       "Microsoft.Extensions.WebEncoders/3.1.0.0": {
         "compile": {
           "Microsoft.Extensions.WebEncoders.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.JSInterop/3.1.0.0": {
-        "compile": {
-          "Microsoft.JSInterop.dll": {}
         },
         "compileOnly": true
       },
@@ -2372,6 +2578,48 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authorization/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vBVCalVaxmv8MqFH1/Qe/fMjwmFWZhGJISiNEa6Is0ZNNFAHHdbvBmreL7qmGaIHt4krnDiV8i3GZa/zi21FBA==",
+      "path": "microsoft.aspnetcore.authorization/3.1.8",
+      "hashPath": "microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lNMY8gacn3hcqpJQbpGmAHkKMN2Wx4U/2KpffJ3ZuWd2JW8ka9aebYvkfFsu7XIe0cQrBbAKngnZoX+Pr9svqw==",
+      "path": "microsoft.aspnetcore.components/3.1.8",
+      "hashPath": "microsoft.aspnetcore.components.3.1.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ODBBAHa7Kxk85HHf/En3ZYw+oGPb+oosb30PZrrB1gGqDo/qtleHLfdR2XsjOdRyZujesOMX0c/FU0t3hyXRpA==",
+      "path": "microsoft.aspnetcore.components.analyzers/3.1.8",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.3.1.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Forms/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tdsF/dnpTxACV54gTmjNu+SkP6JOqlo8HlksG/BHGpgXVXF4LZISKh1wFdLJDOy8iejl6aZNHm8zudLETm67pA==",
+      "path": "microsoft.aspnetcore.components.forms/3.1.8",
+      "hashPath": "microsoft.aspnetcore.components.forms.3.1.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Web/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ghAaxACp1QAOri472hDMtwIAFVVhh4kkGirE2was+4M1m4sjhy1FfDT8lFQ+98TGflf4EuIhPvHt4V+OHtXrsw==",
+      "path": "microsoft.aspnetcore.components.web/3.1.8",
+      "hashPath": "microsoft.aspnetcore.components.web.3.1.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JBZcWJb3JsSsFqdh0DVcOIc/oZ0Mpn0DMeL7Rfk2mUBSm3wdCmJOpt+tVX+M7r0/BRPHe+/2jj9wth5ili+V9A==",
+      "path": "microsoft.aspnetcore.metadata/3.1.8",
+      "hashPath": "microsoft.aspnetcore.metadata.3.1.8.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -2519,6 +2767,20 @@
       "path": "microsoft.extensions.primitives/5.0.0",
       "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
     },
+    "Microsoft.JSInterop/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-unbg+GMGotfUoXa3+QsvqerVX//RYTtLI7dvnmQfNxVKkvaU7Ffm5Iv8j7xY5W1wunmH3RZyflhmkH8qSdSAcg==",
+      "path": "microsoft.jsinterop/3.1.8",
+      "hashPath": "microsoft.jsinterop.3.1.8.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "type": "package",
       "serviceable": true,
@@ -2546,6 +2808,76 @@
       "sha512": "sha512-AY6+vv/4ji1mCkLrS6HP/88rHT9YFKRyg3LUj8RyIk6imJMUFdQDiP8rK8gq0a/0FbqspLjK1t7rtKcr7FXRYA==",
       "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.4",
       "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Buttons/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QGJX0CPPZwx+48tjTw+dbHrjjCt76oxRveC94Gx+MpuCiecaPKnqcVTKolpHWD7W47/7O9DuJoffTcSghrTkdw==",
+      "path": "syncfusion.blazor.buttons/19.2.0.47",
+      "hashPath": "syncfusion.blazor.buttons.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Core/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ENJEmHhIw9NUQc62kxQa6aWXpD38PeQ6v42WY1Fe7i1tL0wC0zh0uePCyXRT9Yu3rIumjGJdTKwds39JYHRZbw==",
+      "path": "syncfusion.blazor.core/19.2.0.47",
+      "hashPath": "syncfusion.blazor.core.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Data/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cgJMIEw191eEX9VanjJhx7ykyiLegeD4G8QE5ytmoeavK48dc5hInz5JiQzmgzQ4aNWqnIIG4Qy2R8cwrHifdQ==",
+      "path": "syncfusion.blazor.data/19.2.0.47",
+      "hashPath": "syncfusion.blazor.data.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.DropDowns/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8Sx4wMuCtE1pjnXWhWbgDT2w4NAYZIu5utZ5lS58Vs6RiAnK8GLOa/GztNu76UJaVHamUot9/qZZlHcjzx5MGg==",
+      "path": "syncfusion.blazor.dropdowns/19.2.0.47",
+      "hashPath": "syncfusion.blazor.dropdowns.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Inputs/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fRcAwflJjlFVQnYMvthgTZhD1qWNG1+8QbjFp24ZT96McCHxEkHl5obvMJ/AUmEgdzTvu9QZRq1UhF6Wz9292w==",
+      "path": "syncfusion.blazor.inputs/19.2.0.47",
+      "hashPath": "syncfusion.blazor.inputs.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Popups/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rBPHDPBe9nIoRSBQbCJMBJCZQDk7yOBYowmsRFdH3HSVDnuw5Xyogf3AYTALRIAXf3S/aafOg6W2qQZoaA5x0Q==",
+      "path": "syncfusion.blazor.popups/19.2.0.47",
+      "hashPath": "syncfusion.blazor.popups.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Spinner/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a+wxBfUbUMdKBqR7oejGNuFmM/Iql+b3bhEm2gvmpyqDTXgkQmcIuN12Faw34Fm/JejBd7SrHyGNwdcl//Jigw==",
+      "path": "syncfusion.blazor.spinner/19.2.0.47",
+      "hashPath": "syncfusion.blazor.spinner.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.SplitButtons/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LS5bRFI2iFeGdDg9A6yT5rhIirbnX/WeVNgA8BFHbhjoFvBga6GmAtRocykEMlcx23lVzFkFEwDfeABtNf+t8A==",
+      "path": "syncfusion.blazor.splitbuttons/19.2.0.47",
+      "hashPath": "syncfusion.blazor.splitbuttons.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Themes/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kt0qlJxJ9EAkj4ehAz9WDcrZ8NxI46ttiuY4Ic4XBf2H/tkmQQ5HtMZEhGsXYmsU0Syjx5G5ELqaQO5+wnFxIA==",
+      "path": "syncfusion.blazor.themes/19.2.0.47",
+      "hashPath": "syncfusion.blazor.themes.19.2.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.2.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sc6QdWzmRfMrCtSgmB5TaJjtZClANa7i9BWwZFlR0hLekIOqQwAFx3OOEoRoPWNzS9wdUteDQD0695n6b6YNxw==",
+      "path": "syncfusion.licensing/19.2.0.47",
+      "hashPath": "syncfusion.licensing.19.2.0.47.nupkg.sha512"
     },
     "System.Collections.Immutable/5.0.0": {
       "type": "package",
@@ -2619,11 +2951,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authorization/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -2634,22 +2961,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Components/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.AspNetCore.Components.Forms/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Microsoft.AspNetCore.Components.Server/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.AspNetCore.Components.Web/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -2790,11 +3102,6 @@
       "sha512": ""
     },
     "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.AspNetCore.Metadata/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3145,11 +3452,6 @@
       "sha512": ""
     },
     "Microsoft.Extensions.WebEncoders/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.JSInterop/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

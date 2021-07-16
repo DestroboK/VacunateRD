@@ -11,6 +11,76 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authorization/3.1.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "3.1.8",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
+          "Microsoft.Extensions.Options": "3.1.8"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components/3.1.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "3.1.8",
+          "Microsoft.AspNetCore.Components.Analyzers": "3.1.8",
+          "Microsoft.JSInterop": "3.1.8"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/3.1.8": {
+        "type": "package",
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Forms/3.1.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.8"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/3.1.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.8",
+          "Microsoft.AspNetCore.Components.Forms": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection": "3.1.8",
+          "Microsoft.JSInterop": "3.1.8"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/3.1.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -269,6 +339,24 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
+      "Microsoft.JSInterop/3.1.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.JSInterop.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.JSInterop.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "type": "package",
         "dependencies": {
@@ -372,6 +460,190 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
+      "Syncfusion.Blazor.Buttons/19.2.0.47": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.2.0.47"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Buttons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Buttons.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Buttons.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Buttons.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Core/19.2.0.47": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.8",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Syncfusion.Blazor.Themes": "19.2.0.47",
+          "Syncfusion.Licensing": "19.2.0.47"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Core.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Core.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Core.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Data/19.2.0.47": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.2.0.47"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Data.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Data.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Data.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Data.props": {}
+        }
+      },
+      "Syncfusion.Blazor.DropDowns/19.2.0.47": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "19.2.0.47",
+          "Syncfusion.Blazor.Core": "19.2.0.47",
+          "Syncfusion.Blazor.Data": "19.2.0.47",
+          "Syncfusion.Blazor.Inputs": "19.2.0.47",
+          "Syncfusion.Blazor.Spinner": "19.2.0.47"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.DropDowns.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.DropDowns.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.DropDowns.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.DropDowns.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Inputs/19.2.0.47": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.2.0.47",
+          "Syncfusion.Blazor.Data": "19.2.0.47",
+          "Syncfusion.Blazor.Popups": "19.2.0.47",
+          "Syncfusion.Blazor.Spinner": "19.2.0.47",
+          "Syncfusion.Blazor.SplitButtons": "19.2.0.47"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Inputs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Inputs.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Inputs.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Inputs.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Popups/19.2.0.47": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "19.2.0.47",
+          "Syncfusion.Blazor.Core": "19.2.0.47"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Popups.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Popups.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Popups.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Popups.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Spinner/19.2.0.47": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.2.0.47"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Spinner.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Spinner.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Spinner.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Spinner.props": {}
+        }
+      },
+      "Syncfusion.Blazor.SplitButtons/19.2.0.47": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "19.2.0.47",
+          "Syncfusion.Blazor.Core": "19.2.0.47",
+          "Syncfusion.Blazor.Popups": "19.2.0.47",
+          "Syncfusion.Blazor.Spinner": "19.2.0.47"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.SplitButtons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.SplitButtons.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.SplitButtons.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.SplitButtons.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Themes/19.2.0.47": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Themes.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.Blazor.Themes.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Themes.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Themes.props": {}
+        }
+      },
+      "Syncfusion.Licensing/19.2.0.47": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        }
+      },
       "System.Collections.Immutable/5.0.0": {
         "type": "package",
         "compile": {
@@ -443,6 +715,107 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/3.1.8": {
+      "sha512": "vBVCalVaxmv8MqFH1/Qe/fMjwmFWZhGJISiNEa6Is0ZNNFAHHdbvBmreL7qmGaIHt4krnDiV8i3GZa/zi21FBA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components/3.1.8": {
+      "sha512": "lNMY8gacn3hcqpJQbpGmAHkKMN2Wx4U/2KpffJ3ZuWd2JW8ka9aebYvkfFsu7XIe0cQrBbAKngnZoX+Pr9svqw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.3.1.8.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/3.1.8": {
+      "sha512": "ODBBAHa7Kxk85HHf/En3ZYw+oGPb+oosb30PZrrB1gGqDo/qtleHLfdR2XsjOdRyZujesOMX0c/FU0t3hyXRpA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.analyzers/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
+        "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "microsoft.aspnetcore.components.analyzers.3.1.8.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Forms/3.1.8": {
+      "sha512": "tdsF/dnpTxACV54gTmjNu+SkP6JOqlo8HlksG/BHGpgXVXF4LZISKh1wFdLJDOy8iejl6aZNHm8zudLETm67pA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.forms/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Forms.xml",
+        "microsoft.aspnetcore.components.forms.3.1.8.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web/3.1.8": {
+      "sha512": "ghAaxACp1QAOri472hDMtwIAFVVhh4kkGirE2was+4M1m4sjhy1FfDT8lFQ+98TGflf4EuIhPvHt4V+OHtXrsw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.3.1.8.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/3.1.8": {
+      "sha512": "JBZcWJb3JsSsFqdh0DVcOIc/oZ0Mpn0DMeL7Rfk2mUBSm3wdCmJOpt+tVX+M7r0/BRPHe+/2jj9wth5ili+V9A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.3.1.8.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -886,6 +1259,53 @@
         "version.txt"
       ]
     },
+    "Microsoft.JSInterop/3.1.8": {
+      "sha512": "unbg+GMGotfUoXa3+QsvqerVX//RYTtLI7dvnmQfNxVKkvaU7Ffm5Iv8j7xY5W1wunmH3RZyflhmkH8qSdSAcg==",
+      "type": "package",
+      "path": "microsoft.jsinterop/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.JSInterop.dll",
+        "lib/netcoreapp3.1/Microsoft.JSInterop.xml",
+        "lib/netstandard2.0/Microsoft.JSInterop.dll",
+        "lib/netstandard2.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.3.1.8.nupkg.sha512",
+        "microsoft.jsinterop.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "sha512": "f5U8Sw0lRym8tTraJ2zm6OqcDrcrEVvcKDtYlKSLs3Ox9SerkwkPXiFXb/uiW0g2tJdUw6oBhsxI/l5DoRxXMg==",
       "type": "package",
@@ -957,6 +1377,247 @@
         "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll",
         "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
         "sqlitepclraw.provider.dynamic_cdecl.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.Buttons/19.2.0.47": {
+      "sha512": "QGJX0CPPZwx+48tjTw+dbHrjjCt76oxRveC94Gx+MpuCiecaPKnqcVTKolpHWD7W47/7O9DuJoffTcSghrTkdw==",
+      "type": "package",
+      "path": "syncfusion.blazor.buttons/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Buttons.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Buttons.props",
+        "buildTransitive/Syncfusion.Blazor.Buttons.props",
+        "lib/net5.0/Syncfusion.Blazor.Buttons.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Buttons.dll",
+        "staticwebassets/scripts/checkbox-91153b.min.js",
+        "staticwebassets/scripts/radiobutton-91153b.min.js",
+        "staticwebassets/scripts/switch-91153b.min.js",
+        "syncfusion.blazor.buttons.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.buttons.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.Core/19.2.0.47": {
+      "sha512": "ENJEmHhIw9NUQc62kxQa6aWXpD38PeQ6v42WY1Fe7i1tL0wC0zh0uePCyXRT9Yu3rIumjGJdTKwds39JYHRZbw==",
+      "type": "package",
+      "path": "syncfusion.blazor.core/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Core.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Core.props",
+        "buildTransitive/Syncfusion.Blazor.Core.props",
+        "lib/net5.0/Syncfusion.Blazor.Core.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Core.dll",
+        "staticwebassets/scripts/compression-91153b.min.js",
+        "staticwebassets/scripts/excelexport-91153b.min.js",
+        "staticwebassets/scripts/fileutils-91153b.min.js",
+        "staticwebassets/scripts/pdfexport-91153b.min.js",
+        "staticwebassets/scripts/popup-91153b.min.js",
+        "staticwebassets/scripts/popupsbase-91153b.min.js",
+        "staticwebassets/scripts/sf-import-91153b.min.js",
+        "staticwebassets/scripts/sf-import-ie-91153b.min.js",
+        "staticwebassets/scripts/sf-svg-export-91153b.min.js",
+        "staticwebassets/scripts/svgbase-91153b.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-91153b.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-extended-91153b.min.js",
+        "syncfusion.blazor.core.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.core.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.Data/19.2.0.47": {
+      "sha512": "cgJMIEw191eEX9VanjJhx7ykyiLegeD4G8QE5ytmoeavK48dc5hInz5JiQzmgzQ4aNWqnIIG4Qy2R8cwrHifdQ==",
+      "type": "package",
+      "path": "syncfusion.blazor.data/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Data.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Data.props",
+        "buildTransitive/Syncfusion.Blazor.Data.props",
+        "lib/net5.0/Syncfusion.Blazor.Data.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Data.dll",
+        "staticwebassets/scripts/data-91153b.min.js",
+        "syncfusion.blazor.data.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.data.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.DropDowns/19.2.0.47": {
+      "sha512": "8Sx4wMuCtE1pjnXWhWbgDT2w4NAYZIu5utZ5lS58Vs6RiAnK8GLOa/GztNu76UJaVHamUot9/qZZlHcjzx5MGg==",
+      "type": "package",
+      "path": "syncfusion.blazor.dropdowns/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.DropDowns.props",
+        "buildMultiTargeting/Syncfusion.Blazor.DropDowns.props",
+        "buildTransitive/Syncfusion.Blazor.DropDowns.props",
+        "lib/net5.0/Syncfusion.Blazor.DropDowns.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.DropDowns.dll",
+        "staticwebassets/scripts/combobox-91153b.min.js",
+        "staticwebassets/scripts/dropdownlist-91153b.min.js",
+        "staticwebassets/scripts/dropdownsbase-91153b.min.js",
+        "staticwebassets/scripts/listbox-91153b.min.js",
+        "staticwebassets/scripts/sf-dropdownlist-91153b.min.js",
+        "staticwebassets/scripts/sf-listbox-91153b.min.js",
+        "staticwebassets/scripts/sf-multiselect-91153b.min.js",
+        "staticwebassets/scripts/sortable-91153b.min.js",
+        "syncfusion.blazor.dropdowns.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.dropdowns.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.Inputs/19.2.0.47": {
+      "sha512": "fRcAwflJjlFVQnYMvthgTZhD1qWNG1+8QbjFp24ZT96McCHxEkHl5obvMJ/AUmEgdzTvu9QZRq1UhF6Wz9292w==",
+      "type": "package",
+      "path": "syncfusion.blazor.inputs/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Inputs.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Inputs.props",
+        "buildTransitive/Syncfusion.Blazor.Inputs.props",
+        "lib/net5.0/Syncfusion.Blazor.Inputs.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Inputs.dll",
+        "staticwebassets/scripts/colorpicker-91153b.min.js",
+        "staticwebassets/scripts/numerictextbox-91153b.min.js",
+        "staticwebassets/scripts/sf-colorpicker-91153b.min.js",
+        "staticwebassets/scripts/sf-maskedtextbox-91153b.min.js",
+        "staticwebassets/scripts/sf-numerictextbox-91153b.min.js",
+        "staticwebassets/scripts/sf-slider-91153b.min.js",
+        "staticwebassets/scripts/sf-textbox-91153b.min.js",
+        "staticwebassets/scripts/sf-uploader-91153b.min.js",
+        "staticwebassets/scripts/uploader-91153b.min.js",
+        "syncfusion.blazor.inputs.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.inputs.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.Popups/19.2.0.47": {
+      "sha512": "rBPHDPBe9nIoRSBQbCJMBJCZQDk7yOBYowmsRFdH3HSVDnuw5Xyogf3AYTALRIAXf3S/aafOg6W2qQZoaA5x0Q==",
+      "type": "package",
+      "path": "syncfusion.blazor.popups/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Popups.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Popups.props",
+        "buildTransitive/Syncfusion.Blazor.Popups.props",
+        "lib/net5.0/Syncfusion.Blazor.Popups.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Popups.dll",
+        "staticwebassets/scripts/sf-dialog-91153b.min.js",
+        "staticwebassets/scripts/sf-tooltip-91153b.min.js",
+        "syncfusion.blazor.popups.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.popups.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.Spinner/19.2.0.47": {
+      "sha512": "a+wxBfUbUMdKBqR7oejGNuFmM/Iql+b3bhEm2gvmpyqDTXgkQmcIuN12Faw34Fm/JejBd7SrHyGNwdcl//Jigw==",
+      "type": "package",
+      "path": "syncfusion.blazor.spinner/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Spinner.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Spinner.props",
+        "buildTransitive/Syncfusion.Blazor.Spinner.props",
+        "lib/net5.0/Syncfusion.Blazor.Spinner.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Spinner.dll",
+        "staticwebassets/scripts/sf-spinner-91153b.min.js",
+        "staticwebassets/scripts/spinner-91153b.min.js",
+        "syncfusion.blazor.spinner.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.spinner.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.SplitButtons/19.2.0.47": {
+      "sha512": "LS5bRFI2iFeGdDg9A6yT5rhIirbnX/WeVNgA8BFHbhjoFvBga6GmAtRocykEMlcx23lVzFkFEwDfeABtNf+t8A==",
+      "type": "package",
+      "path": "syncfusion.blazor.splitbuttons/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.SplitButtons.props",
+        "buildMultiTargeting/Syncfusion.Blazor.SplitButtons.props",
+        "buildTransitive/Syncfusion.Blazor.SplitButtons.props",
+        "lib/net5.0/Syncfusion.Blazor.SplitButtons.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.SplitButtons.dll",
+        "staticwebassets/scripts/dropdownbutton-91153b.min.js",
+        "staticwebassets/scripts/progressbutton-91153b.min.js",
+        "staticwebassets/scripts/sf-drop-down-button-91153b.min.js",
+        "staticwebassets/scripts/splitbutton-91153b.min.js",
+        "staticwebassets/scripts/splitbuttonsbase-91153b.min.js",
+        "syncfusion.blazor.splitbuttons.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.splitbuttons.nuspec"
+      ]
+    },
+    "Syncfusion.Blazor.Themes/19.2.0.47": {
+      "sha512": "kt0qlJxJ9EAkj4ehAz9WDcrZ8NxI46ttiuY4Ic4XBf2H/tkmQQ5HtMZEhGsXYmsU0Syjx5G5ELqaQO5+wnFxIA==",
+      "type": "package",
+      "path": "syncfusion.blazor.themes/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Themes.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Themes.props",
+        "buildTransitive/Syncfusion.Blazor.Themes.props",
+        "lib/net5.0/Syncfusion.Blazor.Themes.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Themes.dll",
+        "staticwebassets/bootstrap-dark.css",
+        "staticwebassets/bootstrap.css",
+        "staticwebassets/bootstrap4.css",
+        "staticwebassets/fabric-dark.css",
+        "staticwebassets/fabric.css",
+        "staticwebassets/highcontrast.css",
+        "staticwebassets/material-dark.css",
+        "staticwebassets/material.css",
+        "staticwebassets/tailwind-dark.css",
+        "staticwebassets/tailwind.css",
+        "syncfusion.blazor.themes.19.2.0.47.nupkg.sha512",
+        "syncfusion.blazor.themes.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/19.2.0.47": {
+      "sha512": "Sc6QdWzmRfMrCtSgmB5TaJjtZClANa7i9BWwZFlR0hLekIOqQwAFx3OOEoRoPWNzS9wdUteDQD0695n6b6YNxw==",
+      "type": "package",
+      "path": "syncfusion.licensing/19.2.0.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.19.2.0.47.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
       ]
     },
     "System.Collections.Immutable/5.0.0": {
@@ -1178,28 +1839,24 @@
       "Microsoft.EntityFrameworkCore >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.sqlite >= 5.0.7"
+      "Microsoft.EntityFrameworkCore.sqlite >= 5.0.7",
+      "Syncfusion.Blazor.DropDowns >= 19.2.0.47"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Kelvin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\Vacunate RD.csproj",
+      "projectUniqueName": "C:\\Users\\Kelvin\\Desktop\\Vacunate RD\\Vacunate RD.csproj",
       "projectName": "Vacunate RD",
-      "projectPath": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\Vacunate RD.csproj",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\obj\\",
+      "projectPath": "C:\\Users\\Kelvin\\Desktop\\Vacunate RD\\Vacunate RD.csproj",
+      "packagesPath": "C:\\Users\\Kelvin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kelvin\\Desktop\\Vacunate RD\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Kelvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1244,6 +1901,10 @@
           "Microsoft.EntityFrameworkCore.sqlite": {
             "target": "Package",
             "version": "[5.0.7, )"
+          },
+          "Syncfusion.Blazor.DropDowns": {
+            "target": "Package",
+            "version": "[19.2.0.47, )"
           }
         },
         "imports": [
@@ -1264,7 +1925,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
