@@ -204,3 +204,25 @@ C:\Users\Kelvin\Desktop\Vacunate RD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Sp
 C:\Users\Kelvin\Desktop\Vacunate RD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.SplitButtons.dll
 C:\Users\Kelvin\Desktop\Vacunate RD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Themes.dll
 C:\Users\Kelvin\Desktop\Vacunate RD\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\RegistrarVacuna.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.StaticWebAssets.xml
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Buttons.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Core.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Data.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.DropDowns.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Inputs.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Popups.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Spinner.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.SplitButtons.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Themes.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\VacunaP.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\RegistrarVacuna.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\VacunaP.razor.g.cs
