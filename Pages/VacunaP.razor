@@ -1,0 +1,106 @@
+@page "/vacun"
+@using Vacunate_RD.Data;
+
+<h1>Vacuna</h1>
+
+<div class="container">
+
+    <br>
+    <br>
+    <h4>ID: </h4>
+    <input style="width: 50%;" type="text" class="form-control" @bind-value="prue" placeholder="ID">
+    <br>
+    <h4>Vacuna: </h4>
+    <input style="width: 50%;" type="text" class="form-control" @bind-value="Vacuna" placeholder="Digite el nombre de la Vacuna">
+    <br>
+    <button class="btn btn-primary" @onclick="ValdiarDat">Registr</button>
+    <button class="btn btn-warning" @onclick="Actualiza">Actualzar</button>
+</div>
+
+@if (@valo == 1)
+{
+    <div class="alert alert-success mt-2" role="alert">Procesado sastifactoria mente</div>
+}
+else if (@valo == 5)
+{
+    <div class="alert alert-danger" role="alert">Favor de ingresar la Vacuna que desea agregar</div>
+}
+
+<br>
+ <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (Vacuna Vacu in GetVacuna())
+                {
+                    <tr>
+                        <td>@Vacu.id</td>
+                        <td>@Vacu.Nombre</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+@code{
+    string Vacuna = "";
+    int valo = 0;
+    //int id;
+    string prue = "";
+    public void Registr(String valor1)
+    {
+        Data.Vacuna Vacu = new Data.Vacuna();
+        Vacu.Nombre = valor1;
+
+        using (VacunateRDContext context = new VacunateRDContext())
+        {
+            context.Add(Vacu);
+            context.SaveChanges();
+            valo = 1;
+        }
+
+    }
+    public void ValdiarDat()
+    {
+
+        if (Vacuna.Length > 0)
+        {
+            Registr(Vacuna);
+        }
+        else
+        {
+            valo = 5;
+        }
+    }
+    List<Vacuna> GetVacuna() => new VacunateRDContext().Vacunas.ToList();
+
+    public void Actualiza()
+    {
+        int noID = int.Parse(prue);
+        using (VacunateRDContext mctx = new VacunateRDContext())
+        {
+            var editarInfr = new Vacuna();
+
+            editarInfr.id = noID;
+
+
+            editarInfr.Nombre = Vacuna;
+
+            mctx.Vacunas.Attach(editarInfr);
+            mctx.Entry(editarInfr).Property(x => x.Nombre).IsModified = true;
+            mctx.SaveChanges();
+            valo = 1;
+        }
+    }
+}
