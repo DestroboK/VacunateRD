@@ -12,9 +12,9 @@ namespace Vacunate_RD.Data
         public string Apellido { get; set; }
         public string Telefono { get; set; }
         public string Fecha_nacimiento { get; set; }
-        public int TipoVacuna { get; set; }
-        public int Provincia { get; set; }
-        public string Fecha_Dosis { get; set; }
+        public string TipoVacuna { get; set; }
+        public string Provincia { get; set; }
+        public DateTime Fecha_Dosis { get; set; }
         public string signo_zodiaco { get; set; }
     }
 }

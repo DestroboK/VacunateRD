@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Vacunate_RD.Migrations
 {
-    public partial class Primera : Migration
+    public partial class Segunda : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -30,9 +31,9 @@ namespace Vacunate_RD.Migrations
                     Apellido = table.Column<string>(type: "TEXT", nullable: true),
                     Telefono = table.Column<string>(type: "TEXT", nullable: true),
                     Fecha_nacimiento = table.Column<string>(type: "TEXT", nullable: true),
-                    TipoVacuna = table.Column<int>(type: "INTEGER", nullable: false),
-                    Provincia = table.Column<int>(type: "INTEGER", nullable: false),
-                    Fecha_Dosis = table.Column<string>(type: "TEXT", nullable: true),
+                    TipoVacuna = table.Column<string>(type: "TEXT", nullable: true),
+                    Provincia = table.Column<string>(type: "TEXT", nullable: true),
+                    Fecha_Dosis = table.Column<DateTime>(type: "TEXT", nullable: false),
                     signo_zodiaco = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>

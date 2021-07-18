@@ -204,3 +204,5 @@ C:\Users\Kelvin\Desktop\Vacunate RD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Sp
 C:\Users\Kelvin\Desktop\Vacunate RD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.SplitButtons.dll
 C:\Users\Kelvin\Desktop\Vacunate RD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Themes.dll
 C:\Users\Kelvin\Desktop\Vacunate RD\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+C:\Users\Kelvin\Desktop\Vacunate RD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\VacunaP.razor.g.cs
+C:\Users\Kelvin\Desktop\Vacunate RD\obj\Debug\netcoreapp3.1\Razor\Pages\VacunaP.razor.g.cs

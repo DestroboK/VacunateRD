@@ -1,4 +1,18 @@
 @page "/Registrar"
+
+<div class="container">
+    <h1 style="text-align: center; color: white; height: 65px" class="mt-2 col-md-12 pt-2 mb-4">Registrar vacunas</h1>
+    <div id="pa" class="row ml-auto">
+        <input style="width: 20%; text-align: left;" type="text" class="form-control" @bind-value="cedula" placeholder="Digite una cédula">
+        <br>
+        <button class="btn btn-dark mb-3 ml-2" @onclick="BuscarData">Buscar Datos</button>
+        <br> <br>
+    </div>
+    <hr style="background-color: white" class="mt-2" />
+</div>
+
+@if (cedula != ""){
+  if(Existe == true){
 <p>Id</p>
 <input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
 <p>Cedula</p>
@@ -9,7 +23,7 @@
 <input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
 <p>Telefono</p>
 <input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-Signo_Zodiacal
+<p>Signo_Zodiacal</p>
 <input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
 
 <p>Provincia</p>
@@ -30,8 +44,12 @@ Signo_Zodiacal
     }
 </InputSelect>
 </EditForm>
-
+  }
+}
 @code {
+  string cedula;
+  bool Existe;
+  void BuscarData(){Existe = true;}
     List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
      List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
     public string id="0";
