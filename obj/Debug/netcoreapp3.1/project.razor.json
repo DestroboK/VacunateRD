@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": -121980200,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Pages.Confi",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Confi"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Pages.Confi"
-        }
-      },
-      {
-        "HashCode": 33034068,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Pages.Confi",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Vacunate_RD.Pages.Confi"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Pages.Confi",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1885511513,
         "Kind": "Components.Component",
         "Name": "Vacunate_RD.Pages.Counter",
@@ -206,6 +173,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Vacunate_RD.Pages.VacunaP",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -121980200,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Pages.Confi",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Confi"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Pages.Confi"
+        }
+      },
+      {
+        "HashCode": 33034068,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Pages.Confi",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunate_RD.Pages.Confi"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Pages.Confi",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

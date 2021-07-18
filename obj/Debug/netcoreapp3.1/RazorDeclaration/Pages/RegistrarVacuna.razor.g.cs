@@ -91,32 +91,22 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "C:\Users\Kelvin\Desktop\Vacunate RD\Pages\RegistrarVacuna.razor"
+#line 42 "C:\Users\Kelvin\Desktop\Vacunate RD\Pages\RegistrarVacuna.razor"
        
-  string cedula;
-  bool Existe;
-  void BuscarData(){Existe = true;}
-    List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
-     List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
-    public string id="0";
-    public string prueba;
-      public class Games
-        {  
-public string ID { get; set; }
-public string Text { get; set; }
-         }
-  List<Games> LocalData = new List<Games> {
-new Games() { ID= "Game1", Text= "American Football" },
-new Games() { ID= "Game2", Text= "Badminton" },
-new Games() { ID= "Game3", Text= "Basketball" },
-new Games() { ID= "Game4", Text= "Cricket" },
-new Games() { ID= "Game5", Text= "Football" },
-new Games() { ID= "Game6", Text= "Golf" },
-new Games() { ID= "Game7", Text= "Hockey" },
-new Games() { ID= "Game8", Text= "Rugby"},
-new Games() { ID= "Game9", Text= "Snooker" },
-new Games() { ID= "Game10", Text= "Tennis"},
-  };
+  string Zodiaco = "Signo zodiacal";
+  Vacunado VacunadoX = new Vacunado();
+  List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
+  List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
+
+    void Registrar()
+    {
+        using (VacunateRDContext context = new VacunateRDContext())
+        {
+            context.Add(VacunadoX);
+            context.SaveChanges();
+        }
+
+    }
 
 #line default
 #line hidden

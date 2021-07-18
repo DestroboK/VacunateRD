@@ -1,74 +1,57 @@
 @page "/Registrar"
 
 <div class="container">
-    <h1 style="text-align: center; color: white; height: 65px" class="mt-2 col-md-12 pt-2 mb-4">Registrar vacunas</h1>
-    <div id="pa" class="row ml-auto">
-        <input style="width: 20%; text-align: left;" type="text" class="form-control" @bind-value="cedula" placeholder="Digite una cédula">
-        <br>
-        <button class="btn btn-dark mb-3 ml-2" @onclick="BuscarData">Buscar Datos</button>
-        <br> <br>
-    </div>
+  <center>
+    <h1>Registrar vacuna</h1>
     <hr style="background-color: white" class="mt-2" />
+  </center>
 </div>
 
-@if (cedula != ""){
-  if(Existe == true){
-<p>Id</p>
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<p>Cedula</p>
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<p>Nombre</p>
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<p>Apellido</p>
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<p>Telefono</p>
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-<p>Signo_Zodiacal</p>
-<input style="width: 50%;" type="text" class="form-control" @bind-value="prueba" placeholder="ID">
-
-<p>Provincia</p>
-<EditForm Model ="GetProvincias">
-<InputSelect id= "GetProvincias"class="form-group" @bind-Value="id">
-@foreach (Provincia prov in GetProvincias)
-    {
-        <option value ="@prov.id">@prov.Nombre</option>
-    }
-</InputSelect>
-</EditForm>
-<p>Tipo de vacuna</p>
-<EditForm Model ="GetVacuna">
-<InputSelect id= "GetVacuna"class="form-group" @bind-Value="id">
+<div class="container">
+<EditForm Model ="@VacunadoX">
+<InputText placeholder="Cedula" class="form-group" @bind-Value="VacunadoX.Cedula">Cedula</InputText>
+<InputText placeholder="Nombre" class="form-group" @bind-Value="VacunadoX.Nombre">Nombre</InputText>
+<InputText placeholder="Apellido" class="form-group" @bind-Value="VacunadoX.Apellido">Apellido</InputText>
+<InputText placeholder="Telefono" class="form-group" @bind-Value="VacunadoX.Telefono">Telefono</InputText>
+<InputText placeholder="@Zodiaco" class="form-group" @bind-Value="VacunadoX.signo_zodiaco">Signo zodiacal</InputText>
+<label>Fecha de la(s) dosis</label>
+<InputDate placeholder="Fecha de la dosis" @bind-Value = "VacunadoX.Fecha_Dosis" class="form-control">Fecha de la dosis</InputDate>
+<label>Fecha de nacimiento</label>
+<InputDate placeholder="Fecha de nacimiento" @bind-Value = "VacunadoX.Fecha_nacimiento" class="form-control">Fecha de nacimiento</InputDate>
+<InputSelect class="form-group" @bind-Value="VacunadoX.TipoVacuna">
 @foreach (Vacuna vac in GetVacuna)
     {
-        <option value ="@vac.id">@vac.Nombre</option>
+        <option value ="@vac.Nombre">@vac.Nombre</option>
+    }
+</InputSelect>
+
+<InputSelect class="form-group" @bind-Value="VacunadoX.Provincia">
+@foreach (Provincia prov in GetProvincias)
+    {
+        <option value ="@prov.Nombre">@prov.Nombre</option>
     }
 </InputSelect>
 </EditForm>
-  }
-}
+</div>
+<button class="btn btn-dark mb-3 ml-2" @onclick="Registrar">Registrar vacunado</button>
+
+
+
+
+
 @code {
-  string cedula;
-  bool Existe;
-  void BuscarData(){Existe = true;}
-    List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
-     List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
-    public string id="0";
-    public string prueba;
-      public class Games
-        {  
-public string ID { get; set; }
-public string Text { get; set; }
-         }
-  List<Games> LocalData = new List<Games> {
-new Games() { ID= "Game1", Text= "American Football" },
-new Games() { ID= "Game2", Text= "Badminton" },
-new Games() { ID= "Game3", Text= "Basketball" },
-new Games() { ID= "Game4", Text= "Cricket" },
-new Games() { ID= "Game5", Text= "Football" },
-new Games() { ID= "Game6", Text= "Golf" },
-new Games() { ID= "Game7", Text= "Hockey" },
-new Games() { ID= "Game8", Text= "Rugby"},
-new Games() { ID= "Game9", Text= "Snooker" },
-new Games() { ID= "Game10", Text= "Tennis"},
-  };
+  string Zodiaco = "Signo zodiacal";
+  Vacunado VacunadoX = new Vacunado();
+  List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
+  List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
+
+    void Registrar()
+    {
+        using (VacunateRDContext context = new VacunateRDContext())
+        {
+            context.Add(VacunadoX);
+            context.SaveChanges();
+        }
+
+    }
 }
