@@ -24,28 +24,28 @@
         </li>
         <li class="nav-item px-3">
             <NavLink class="nav-link" href="Acerca de">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Acerca de
+                <span class="oi oi-info" aria-hidden="true"></span> Acerca de
             </NavLink>
         </li>
 
          <li class="nav-item px-3">
             <NavLink class="nav-link" href="" @onclick="()=>ExpancionMenu= !ExpancionMenu">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Configuracion
+                <span class="oi oi-cog" aria-hidden="true"></span> Configuracion
             </NavLink>
             @if (ExpancionMenu)
             {
                  <NavLink class="Expancion-Menu" href="provi">
-                     <img src="./img/provincia.png" alt="Alternate Text" width="30" height="30" style="margin-right: 10px;" />Provincia
+                     <span class="oi oi-map-marker" aria-hidden="true"></span>Provincia
                  </NavLink>
                  <NavLink class="Expancion-Menu" href="vacun">
-                     <img src="./img/vacu.png" alt="Alternate Text" width="30" height="30" style="margin-right: 10px;" /> Vacuna
+                     <span class="oi oi-plus" aria-hidden="true"></span>Vacuna
                  </NavLink>
             }
         </li>
 
                 <li class="nav-item px-3">
             <NavLink class="nav-link" href="Registrar">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Registrar vacuna
+                <span class="oi oi-list" aria-hidden="true"></span> Registrar vacuna
             </NavLink>
         </li>
     </ul>

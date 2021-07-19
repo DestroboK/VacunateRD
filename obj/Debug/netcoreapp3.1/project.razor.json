@@ -12,188 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 310094166,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.NavMenu",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -964202877,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.NavMenu",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Vacunate_RD.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 666046642,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.MainLayout",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.MainLayout"
-        }
-      },
-      {
-        "HashCode": 1313550626,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.MainLayout",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Vacunate_RD.Shared.MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 927812340,
-        "Kind": "Components.ChildContent",
-        "Name": "Vacunate_RD.Shared.MainLayout.Body",
-        "AssemblyName": "Vacunate RD",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "Vacunate_RD.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": 607352404,
-        "Kind": "Components.ChildContent",
-        "Name": "Vacunate_RD.Shared.MainLayout.Body",
-        "AssemblyName": "Vacunate RD",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "Vacunate_RD.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "Vacunate_RD.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 655965118,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.SurveyPrompt",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 63530399,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.SurveyPrompt",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Vacunate_RD.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -524205351,
         "Kind": "Components.Component",
         "Name": "Vacunate_RD.App",
@@ -421,6 +239,188 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Vacunate_RD.Pages.VacunaP",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 655965118,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.SurveyPrompt",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 63530399,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.SurveyPrompt",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunate_RD.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 666046642,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.MainLayout",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": 1313550626,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.MainLayout",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunate_RD.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 927812340,
+        "Kind": "Components.ChildContent",
+        "Name": "Vacunate_RD.Shared.MainLayout.Body",
+        "AssemblyName": "Vacunate RD",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Vacunate_RD.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 607352404,
+        "Kind": "Components.ChildContent",
+        "Name": "Vacunate_RD.Shared.MainLayout.Body",
+        "AssemblyName": "Vacunate RD",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Vacunate_RD.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Vacunate_RD.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 310094166,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.NavMenu",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -964202877,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.NavMenu",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunate_RD.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
