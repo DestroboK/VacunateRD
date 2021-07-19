@@ -76,14 +76,14 @@ using Vacunate_RD.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Confi.razor"
+#line 2 "C:\Users\Administrador\Desktop\VacunateRD\Pages\ProvinciaP.razor"
 using Vacunate_RD.Data;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/confi")]
-    public partial class Confi : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/provi")]
+    public partial class ProvinciaP : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,7 +91,7 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 57 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Confi.razor"
+#line 57 "C:\Users\Administrador\Desktop\VacunateRD\Pages\ProvinciaP.razor"
       
     string Provincia = "";
     int valor = 0;

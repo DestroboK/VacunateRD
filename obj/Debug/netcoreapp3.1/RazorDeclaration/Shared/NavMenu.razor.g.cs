@@ -90,9 +90,11 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 48 "C:\Users\Administrador\Desktop\VacunateRD\Shared\NavMenu.razor"
+#line 54 "C:\Users\Administrador\Desktop\VacunateRD\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
+    private bool  ExpancionMenu;
+
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
