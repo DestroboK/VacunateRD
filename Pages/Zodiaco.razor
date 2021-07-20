@@ -1,0 +1,35 @@
+@page "/zodiaco"
+@using Vacunate_RD.Data;
+
+<h1 style=" text-align: center; color: white; height: 65px" class="mt-2 pt-2 mb-4">Vacunados por signo zodiaco</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Signo</th>
+            <th>Personas vacunadas</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vacu in GetVacunados())
+        {
+            <tr>
+                <td>@vacu.Signo_zodiaco</td>
+                <td>@vacu.Cantidad</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code{
+    List<DataZodiaco> GetVacunados() =>
+    (
+        from p in new VacunateRDContext().Vacunados
+        group p by p.signo_zodiaco into g
+        select new DataZodiaco
+        {
+            Signo_zodiaco = g.Key,
+            Cantidad = g.Count()
+        }
+    ).ToList();
+}

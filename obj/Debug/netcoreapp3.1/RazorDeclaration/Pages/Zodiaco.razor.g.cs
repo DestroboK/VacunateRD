@@ -76,14 +76,14 @@ using Vacunate_RD.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "c:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 2 "c:\Users\Administrador\Desktop\VacunateRD\Pages\Zodiaco.razor"
 using Vacunate_RD.Data;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Registrar")]
-    public partial class RegistrarVacuna : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/zodiaco")]
+    public partial class Zodiaco : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,22 +91,18 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 42 "c:\Users\Administrador\Desktop\VacunateRD\Pages\RegistrarVacuna.razor"
-       
-  string Zodiaco = "Signo zodiacal";
-  Vacunado VacunadoX = new Vacunado();
-  List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
-  List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
-
-    void Registrar()
-    {
-        using (VacunateRDContext context = new VacunateRDContext())
+#line 24 "c:\Users\Administrador\Desktop\VacunateRD\Pages\Zodiaco.razor"
+      
+    List<DataZodiaco> GetVacunados() =>
+    (
+        from p in new VacunateRDContext().Vacunados
+        group p by p.signo_zodiaco into g
+        select new DataZodiaco
         {
-            context.Add(VacunadoX);
-            context.SaveChanges();
+            Signo_zodiaco = g.Key,
+            Cantidad = g.Count()
         }
-
-    }
+    ).ToList();
 
 #line default
 #line hidden
