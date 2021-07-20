@@ -226,3 +226,5 @@ C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Re
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\VacunaP.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProvinciaP.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\ProvinciaP.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Anular.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Anular.razor.g.cs

@@ -1,0 +1,97 @@
+@page "/eliminar"
+@using Vacunate_RD.Data;
+
+<style>
+    #paw{
+        justify-content: center;
+    }
+</style>
+
+<h1 style="text-align: center; color: white; height: 65px" class="mt-2 pt-2 mb-4">Eliminar Registros</h1>
+
+<div class="container">
+    <div id="paw" class="row ml-auto">
+        <input style="width: 25%;" type="text" class="form-control ml-2" @bind-value="elegir" placeholder="Cedula">
+        <button class="btn btn-warning ml-2 mb-3" @onclick="ValidarCedula">Eliminar</button>
+        <br>
+    </div>
+</div>
+
+@if (@valor == 1)
+{
+    <div class="alert alert-success mt-2 mb-3" role="alert">Registro eliminado</div>
+}
+else if (@valor == 5)
+{
+    <div class="alert alert-danger mt-2 mb-3" role="alert">Favor de ingresar todos los numeros de la cédula</div>
+}
+
+<table class="table table-bordered mt-2">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>C�dula</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Tel�fono</th>
+            <th>Provincia</th>
+            <th>Fecha nacimiento</th>
+            <th>TipoVacuna</th>
+            <th>Fecha Dosis</th>
+            <th>Signo zodiaco</th>
+            
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Vacunado vacu in GetVacunados())
+        {
+            <tr>
+                <td>@vacu.Id</td>
+                <td>@vacu.Cedula</td>
+                <td>@vacu.Nombre</td>
+                <td>@vacu.Apellido</td>
+                <td>@vacu.Telefono</td>
+                <td>@vacu.Provincia</td>
+                <td>@vacu.Fecha_nacimiento</td>
+                <td>@vacu.TipoVacuna</td>
+                <td>@vacu.Fecha_Dosis</td>
+                <td>@vacu.signo_zodiaco</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+@code {
+    string elegir;
+    int valor = 0;
+
+    public void Borrar(String varo)
+    {
+
+        using (VacunateRDContext con = new VacunateRDContext())
+        {
+            con.Vacunados.RemoveRange(con.Vacunados.Where(x => x.Cedula == varo));
+            con.SaveChanges();
+            valor = 1;
+        }
+
+
+    }
+
+    public void ValidarCedula()
+    {
+
+        if (elegir.Length >= 3)
+        {
+            Borrar(elegir);
+        }
+        else
+        {
+            valor = 5;
+        }
+    }
+
+    List<Vacunado> GetVacunados() => new VacunateRDContext().Vacunados.ToList();
+}

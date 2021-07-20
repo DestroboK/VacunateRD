@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace Vacunate_RD.Shared
+namespace Vacunate_RD.Pages
 {
     #line hidden
     using System;
@@ -76,13 +76,14 @@ using Vacunate_RD.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 2 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Anular.razor"
 using Vacunate_RD.Data;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/eliminar")]
+    public partial class Anular : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,18 +91,38 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "C:\Users\Administrador\Desktop\VacunateRD\Shared\NavMenu.razor"
+#line 66 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Anular.razor"
        
-    private bool collapseNavMenu = true;
-    private bool  ExpancionMenu;
+    string elegir;
+    int valor = 0;
 
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    public void Borrar(String varo)
     {
-        collapseNavMenu = !collapseNavMenu;
+
+        using (VacunateRDContext con = new VacunateRDContext())
+        {
+            con.Vacunados.RemoveRange(con.Vacunados.Where(x => x.Cedula == varo));
+            con.SaveChanges();
+            valor = 1;
+        }
+
+
     }
+
+    public void ValidarCedula()
+    {
+
+        if (elegir.Length >= 3)
+        {
+            Borrar(elegir);
+        }
+        else
+        {
+            valor = 5;
+        }
+    }
+
+    List<Vacunado> GetVacunados() => new VacunateRDContext().Vacunados.ToList();
 
 #line default
 #line hidden
