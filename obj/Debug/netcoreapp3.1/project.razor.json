@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -524205351,
+        "HashCode": 1211213550,
         "Kind": "Components.Component",
-        "Name": "Vacunate_RD.App",
+        "Name": "Vacunate_RD.Pages.InformacionPersonal",
         "AssemblyName": "Vacunate RD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "InformacionPersonal"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.App"
+          "Common.TypeName": "Vacunate_RD.Pages.InformacionPersonal"
         }
       },
       {
-        "HashCode": 831797252,
+        "HashCode": -165841644,
         "Kind": "Components.Component",
-        "Name": "Vacunate_RD.App",
+        "Name": "Vacunate_RD.Pages.InformacionPersonal",
         "AssemblyName": "Vacunate RD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Vacunate_RD.App"
+            "TagName": "Vacunate_RD.Pages.InformacionPersonal"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.App",
+          "Common.TypeName": "Vacunate_RD.Pages.InformacionPersonal",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -107,39 +107,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Vacunate_RD.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1211213550,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Pages.InformacionPersonal",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "InformacionPersonal"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Pages.InformacionPersonal"
-        }
-      },
-      {
-        "HashCode": -165841644,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Pages.InformacionPersonal",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Vacunate_RD.Pages.InformacionPersonal"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Pages.InformacionPersonal",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -243,55 +210,35 @@
         }
       },
       {
-        "HashCode": 655965118,
+        "HashCode": -524205351,
         "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.SurveyPrompt",
+        "Name": "Vacunate_RD.App",
         "AssemblyName": "Vacunate RD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt"
+          "Common.TypeName": "Vacunate_RD.App"
         }
       },
       {
-        "HashCode": 63530399,
+        "HashCode": 831797252,
         "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.SurveyPrompt",
+        "Name": "Vacunate_RD.App",
         "AssemblyName": "Vacunate RD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Vacunate_RD.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "Vacunate_RD.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt",
+          "Common.TypeName": "Vacunate_RD.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -421,6 +368,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Vacunate_RD.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 655965118,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.SurveyPrompt",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 63530399,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.SurveyPrompt",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunate_RD.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
