@@ -55,7 +55,6 @@ C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorComponent.input.cache
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\InformacionPersonal.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
@@ -68,7 +67,6 @@ C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.Ta
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.TagHelpers.output.cache
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorCoreGenerate.cache
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\InformacionPersonal.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
