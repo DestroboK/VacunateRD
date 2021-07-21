@@ -45,6 +45,39 @@
         }
       },
       {
+        "HashCode": 1381141877,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Pages.Anular",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Anular"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Pages.Anular"
+        }
+      },
+      {
+        "HashCode": -43844641,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Pages.Anular",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunate_RD.Pages.Anular"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Pages.Anular",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1093084889,
         "Kind": "Components.Component",
         "Name": "Vacunate_RD.Pages.Index",
@@ -111,35 +144,35 @@
         }
       },
       {
-        "HashCode": -1536100481,
+        "HashCode": 34595109,
         "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Pages.ProvinciaP",
+        "Name": "Vacunate_RD.Pages.VacunaP",
         "AssemblyName": "Vacunate RD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ProvinciaP"
+            "TagName": "VacunaP"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Pages.ProvinciaP"
+          "Common.TypeName": "Vacunate_RD.Pages.VacunaP"
         }
       },
       {
-        "HashCode": 1759189936,
+        "HashCode": -325210637,
         "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Pages.ProvinciaP",
+        "Name": "Vacunate_RD.Pages.VacunaP",
         "AssemblyName": "Vacunate RD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Vacunate_RD.Pages.ProvinciaP"
+            "TagName": "Vacunate_RD.Pages.VacunaP"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Pages.ProvinciaP",
+          "Common.TypeName": "Vacunate_RD.Pages.VacunaP",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -177,35 +210,35 @@
         }
       },
       {
-        "HashCode": 34595109,
+        "HashCode": -1536100481,
         "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Pages.VacunaP",
+        "Name": "Vacunate_RD.Pages.ProvinciaP",
         "AssemblyName": "Vacunate RD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "VacunaP"
+            "TagName": "ProvinciaP"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Pages.VacunaP"
+          "Common.TypeName": "Vacunate_RD.Pages.ProvinciaP"
         }
       },
       {
-        "HashCode": -325210637,
+        "HashCode": 1759189936,
         "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Pages.VacunaP",
+        "Name": "Vacunate_RD.Pages.ProvinciaP",
         "AssemblyName": "Vacunate RD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Vacunate_RD.Pages.VacunaP"
+            "TagName": "Vacunate_RD.Pages.ProvinciaP"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Pages.VacunaP",
+          "Common.TypeName": "Vacunate_RD.Pages.ProvinciaP",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -239,6 +272,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Vacunate_RD.Pages.Zodiaco",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1415002470,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Pages.Vacunadosprovincia",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunadosprovincia"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Pages.Vacunadosprovincia"
+        }
+      },
+      {
+        "HashCode": -1042123508,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Pages.Vacunadosprovincia",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunate_RD.Pages.Vacunadosprovincia"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Pages.Vacunadosprovincia",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -339,39 +405,6 @@
         }
       },
       {
-        "HashCode": 310094166,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.NavMenu",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -964202877,
-        "Kind": "Components.Component",
-        "Name": "Vacunate_RD.Shared.NavMenu",
-        "AssemblyName": "Vacunate RD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Vacunate_RD.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Vacunate_RD.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 655965118,
         "Kind": "Components.Component",
         "Name": "Vacunate_RD.Shared.SurveyPrompt",
@@ -421,6 +454,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Vacunate_RD.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 310094166,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.NavMenu",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -964202877,
+        "Kind": "Components.Component",
+        "Name": "Vacunate_RD.Shared.NavMenu",
+        "AssemblyName": "Vacunate RD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Vacunate_RD.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Vacunate_RD.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -45760,6 +45826,11 @@
     {
       "FilePath": "c:\\Users\\Administrador\\Desktop\\VacunateRD\\Pages\\RegistrarVacuna.razor",
       "TargetPath": "Pages\\RegistrarVacuna.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrador\\Desktop\\VacunateRD\\Pages\\Vacunadosprovincia.razor",
+      "TargetPath": "Pages\\Vacunadosprovincia.razor",
       "FileKind": "component"
     },
     {

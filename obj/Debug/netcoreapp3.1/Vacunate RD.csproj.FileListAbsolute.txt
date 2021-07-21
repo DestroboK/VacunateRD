@@ -230,3 +230,5 @@ C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclarati
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Anular.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Zodiaco.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Zodiaco.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Consultavacu.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Consultavacu.razor.g.cs

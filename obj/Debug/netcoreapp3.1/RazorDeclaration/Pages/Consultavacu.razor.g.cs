@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace Vacunate_RD.Shared
+namespace Vacunate_RD.Pages
 {
     #line hidden
     using System;
@@ -76,13 +76,14 @@ using Vacunate_RD.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Administrador\Desktop\VacunateRD\_Imports.razor"
+#line 2 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Consultavacu.razor"
 using Vacunate_RD.Data;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/consulta_vacunados")]
+    public partial class Consultavacu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,18 +91,12 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 57 "C:\Users\Administrador\Desktop\VacunateRD\Shared\NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
-    private bool  ExpancionMenu;
-
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+#line 135 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Consultavacu.razor"
+      
+    string filtroText =string.Empty;
+    List<Vacunado> GetVacunados() => new VacunateRDContext().Vacunados.ToList();
+    List<Vacunado> GetFiltro() => new VacunateRDContext().Vacunados.Where(x => x.Nombre.Contains(filtroText)).ToList();
+    List<Vacunado> GetFiltroApellido() => new VacunateRDContext().Vacunados.Where(x => x.Apellido.Contains(filtroText)).ToList();
 
 #line default
 #line hidden
