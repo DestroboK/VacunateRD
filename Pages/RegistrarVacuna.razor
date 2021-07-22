@@ -17,7 +17,7 @@
 <label>Fecha de la(s) dosis</label>
 <InputDate placeholder="Fecha de la dosis" @bind-Value = "VacunadoX.Fecha_Dosis" class="form-control">Fecha de la dosis</InputDate>
 <label>Fecha de nacimiento</label>
-<InputDate placeholder="Fecha de nacimiento" @bind-Value = "VacunadoX.Fecha_nacimiento" class="form-control">Fecha de nacimiento</InputDate>
+<InputDate placeholder="Fecha de nacimiento" @bind-Value = "VacunadoX.Fecha_nacimiento" class="form-control" @oninput="DeterminarSigno">Fecha de nacimiento</InputDate>
 <InputSelect class="form-group" @bind-Value="VacunadoX.TipoVacuna">
 @foreach (Vacuna vac in GetVacuna)
     {
@@ -35,15 +35,15 @@
 </div>
 <button class="btn btn-dark mb-3 ml-2" @onclick="Registrar">Registrar vacunado</button>
 
-
-
-
-
 @code {
+    int dia_zodiaco, mes_zodiaco;
+
+
   string Zodiaco = "Signo zodiacal";
   Vacunado VacunadoX = new Vacunado();
   List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
   List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
+
 
     void Registrar()
     {
@@ -52,6 +52,46 @@
             context.Add(VacunadoX);
             context.SaveChanges();
         }
+
+    }
+    void DeterminarSigno(){
+        dia_zodiaco = VacunadoX.Fecha_nacimiento.Date.Day;
+        mes_zodiaco = VacunadoX.Fecha_nacimiento.Date.Month;
+        if ((dia_zodiaco >= 21 && mes_zodiaco == 3) || (dia_zodiaco <= 20 && mes_zodiaco == 4))
+        VacunadoX.signo_zodiaco = "Aries";
+
+    if ((dia_zodiaco >= 24 && mes_zodiaco == 9) || (dia_zodiaco <= 23 && mes_zodiaco == 10))
+        VacunadoX.signo_zodiaco = "Libra";
+
+    if ((dia_zodiaco >= 21 && mes_zodiaco == 4) || (dia_zodiaco <= 21 && mes_zodiaco == 5))
+        VacunadoX.signo_zodiaco = "Tauro";
+
+    if ((dia_zodiaco >= 24 && mes_zodiaco == 10) || (dia_zodiaco <= 22 && mes_zodiaco == 11))
+        VacunadoX.signo_zodiaco = "Escorpio";
+
+    if ((dia_zodiaco >= 22 && mes_zodiaco == 5) || (dia_zodiaco <= 21 && mes_zodiaco == 6))
+        VacunadoX.signo_zodiaco = "Géminis";
+
+    if ((dia_zodiaco >= 23 && mes_zodiaco == 11) || (dia_zodiaco <= 21 && mes_zodiaco == 12))
+        VacunadoX.signo_zodiaco = "Sagitario";
+
+    if ((dia_zodiaco >= 21 && mes_zodiaco == 6) || (dia_zodiaco <= 23 && mes_zodiaco == 7))
+        VacunadoX.signo_zodiaco = "Cáncer";
+
+    if ((dia_zodiaco >= 22 && mes_zodiaco == 12) || (dia_zodiaco <= 20 && mes_zodiaco == 1))
+        VacunadoX.signo_zodiaco = "Capricornio";
+
+    if ((dia_zodiaco >= 24 && mes_zodiaco == 7) || (dia_zodiaco <= 23 && mes_zodiaco == 8))
+        VacunadoX.signo_zodiaco = "Leo";
+
+    if ((dia_zodiaco >= 21 && mes_zodiaco == 1) || (dia_zodiaco <= 19 && mes_zodiaco == 2))
+        VacunadoX.signo_zodiaco = "Acuario";
+
+    if ((dia_zodiaco >= 24 && mes_zodiaco == 8) || (dia_zodiaco <= 23 && mes_zodiaco == 9))
+        VacunadoX.signo_zodiaco = "Virgo";
+
+    if ((dia_zodiaco >= 20 && mes_zodiaco == 2) || (dia_zodiaco <= 20 && mes_zodiaco == 3))
+        VacunadoX.signo_zodiaco = "Piscis";
 
     }
 }

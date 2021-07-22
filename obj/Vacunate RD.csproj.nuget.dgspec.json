@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\Desktop\\VacunateRD\\Vacunate RD.csproj": {}
+    "C:\\Users\\Kelvin\\Desktop\\Tarea7y8\\VacunateRD\\Vacunate RD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\Desktop\\VacunateRD\\Vacunate RD.csproj": {
+    "C:\\Users\\Kelvin\\Desktop\\Tarea7y8\\VacunateRD\\Vacunate RD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\Vacunate RD.csproj",
+        "projectUniqueName": "C:\\Users\\Kelvin\\Desktop\\Tarea7y8\\VacunateRD\\Vacunate RD.csproj",
         "projectName": "Vacunate RD",
-        "projectPath": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\Vacunate RD.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Desktop\\VacunateRD\\obj\\",
+        "projectPath": "C:\\Users\\Kelvin\\Desktop\\Tarea7y8\\VacunateRD\\Vacunate RD.csproj",
+        "packagesPath": "C:\\Users\\Kelvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kelvin\\Desktop\\Tarea7y8\\VacunateRD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kelvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

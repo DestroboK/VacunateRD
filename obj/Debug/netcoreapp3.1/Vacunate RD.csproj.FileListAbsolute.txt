@@ -232,3 +232,122 @@ C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclarati
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Zodiaco.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Consultavacu.razor.g.cs
 C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Consultavacu.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.StaticWebAssets.xml
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.exe
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.deps.json
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.runtimeconfig.json
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.runtimeconfig.dev.json
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.pdb
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.Views.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Vacunate RD.Views.pdb
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Buttons.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Core.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Data.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.DropDowns.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Inputs.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Popups.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Spinner.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.SplitButtons.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.Themes.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.csproj.AssemblyReference.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.AssemblyInfoInputs.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.AssemblyInfo.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.csproj.CoreCompileInputs.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorComponent.input.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Anular.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Consultavacu.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\InformacionPersonal.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProvinciaP.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\RegistrarVacuna.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\VacunaP.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Zodiaco.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorComponent.output.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Vacunate RD.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.TagHelpers.input.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.TagHelpers.output.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorCoreGenerate.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Anular.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Consultavacu.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\InformacionPersonal.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\ProvinciaP.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\RegistrarVacuna.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\VacunaP.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Zodiaco.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorAssemblyInfo.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorAssemblyInfo.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\staticwebassets\Vacunate RD.StaticWebAssets.Manifest.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\staticwebassets\Vacunate RD.StaticWebAssets.xml
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\scopedcss\bundle\Vacunate RD.styles.css
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorTargetAssemblyInfo.cache
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.RazorTargetAssemblyInfo.cs
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.Views.pdb
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.csproj.CopyComplete
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.dll
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.pdb
+C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Vacunate RD.genruntimeconfig.cache

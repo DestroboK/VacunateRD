@@ -1,11 +1,11 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Buttons" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.buttons\19.2.0.47\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Core" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.core\19.2.0.47\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Data" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.data\19.2.0.47\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.DropDowns" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.dropdowns\19.2.0.47\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Inputs" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.inputs\19.2.0.47\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Popups" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.popups\19.2.0.47\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Spinner" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.spinner\19.2.0.47\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.SplitButtons" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.splitbuttons\19.2.0.47\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Themes" Path="C:\Users\Administrador\.nuget\packages\syncfusion.blazor.themes\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Buttons" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.buttons\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Core" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.core\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Data" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.data\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.DropDowns" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.dropdowns\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Inputs" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.inputs\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Popups" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.popups\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Spinner" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.spinner\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.SplitButtons" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.splitbuttons\19.2.0.47\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Themes" Path="C:\Users\Kelvin\.nuget\packages\syncfusion.blazor.themes\19.2.0.47\build\..\staticwebassets\" />
 </StaticWebAssets>
