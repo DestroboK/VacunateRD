@@ -76,8 +76,22 @@ using Vacunate_RD.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\PorTipoVacuna.razor"
+#line 10 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\_Imports.razor"
 using Vacunate_RD.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\_Imports.razor"
+using Radzen.Blazor;
 
 #line default
 #line hidden
@@ -91,9 +105,9 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 24 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\PorTipoVacuna.razor"
+#line 37 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\PorTipoVacuna.razor"
       
-    List<DataTipoDeVacuna> GetVacunados() =>
+    List<DataTipoDeVacuna> GetVacunados=
     (
         from p in new VacunateRDContext().Vacunados
         group p by p.TipoVacuna into g
@@ -103,6 +117,7 @@ using Vacunate_RD.Data;
             Cantidad = g.Count()
         }
     ).ToList();
+
 
 #line default
 #line hidden

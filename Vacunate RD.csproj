@@ -16,7 +16,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Radzen.Blazor" Version="3.7.2" />
     <PackageReference Include="Syncfusion.Blazor.DropDowns" Version="19.2.0.47" />
   </ItemGroup>
+
+
 
 </Project>

@@ -82,6 +82,20 @@ using Vacunate_RD.Data;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class _Imports : System.Object
     {
         #pragma warning disable 1998

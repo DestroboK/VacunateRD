@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QjGqC8LufONwZuFoMaEP00k9tUME08GaOS+IIgMKBIto78O6fZcOQrsym/BfMnOTpV61TAdLH11DzSali8FO9g==",
+  "dgSpecHash": "lnskDs3Bhzj3/rNXqhXRXbLMAAcE6X6JH0Ggk9h4UOE+CNR+6mm9426UMeU9ctmJCekMI9/2afmjsDgrCrg7SQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kelvin\\Desktop\\Tarea7y8\\VacunateRD\\Vacunate RD.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.jsinterop\\3.1.8\\microsoft.jsinterop.3.1.8.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Kelvin\\.nuget\\packages\\radzen.blazor\\3.7.2\\radzen.blazor.3.7.2.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
@@ -51,6 +52,7 @@
     "C:\\Users\\Kelvin\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Kelvin\\.nuget\\packages\\system.linq.dynamic.core\\1.2.2\\system.linq.dynamic.core.1.2.2.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512",
     "C:\\Users\\Kelvin\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"

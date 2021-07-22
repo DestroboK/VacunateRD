@@ -73,6 +73,20 @@ using Vacunate_RD.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\ProvinciaP.razor"
 using Vacunate_RD.Data;
 
