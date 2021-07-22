@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace Vacunate_RD.Shared
+namespace Vacunate_RD.Pages
 {
     #line hidden
     using System;
@@ -76,13 +76,14 @@ using Vacunate_RD.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\_Imports.razor"
+#line 2 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\PorTipoVacuna.razor"
 using Vacunate_RD.Data;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/tipovac")]
+    public partial class PorTipoVacuna : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,18 +91,18 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 64 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Shared\NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
-    private bool  ExpancionMenu;
-
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+#line 24 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\PorTipoVacuna.razor"
+      
+    List<DataTipoDeVacuna> GetVacunados() =>
+    (
+        from p in new VacunateRDContext().Vacunados
+        group p by p.TipoVacuna into g
+        select new DataTipoDeVacuna
+        {
+            TipoVac = g.Key,
+            Cantidad = g.Count()
+        }
+    ).ToList();
 
 #line default
 #line hidden

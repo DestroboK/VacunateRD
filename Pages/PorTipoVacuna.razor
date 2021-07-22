@@ -1,0 +1,35 @@
+@page "/tipovac"
+@using Vacunate_RD.Data;
+
+<h1 style=" text-align: center; color: white; height: 65px" class="mt-2 pt-2 mb-4">Vacunados por tipo de vacuna</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Vacuna</th>
+            <th>Personas vacunadas</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vacu in GetVacunados())
+        {
+            <tr>
+                <td>@vacu.TipoVac</td>
+                <td>@vacu.Cantidad</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code{
+    List<DataTipoDeVacuna> GetVacunados() =>
+    (
+        from p in new VacunateRDContext().Vacunados
+        group p by p.TipoVacuna into g
+        select new DataTipoDeVacuna
+        {
+            TipoVac = g.Key,
+            Cantidad = g.Count()
+        }
+    ).ToList();
+}
