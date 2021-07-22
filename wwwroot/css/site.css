@@ -7,8 +7,25 @@ html, body {
 a, .btn-link {
     color: #0366d6;
 }
-
-
+.table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td{
+    border: 1px solid #a19d6b;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #a16b6b;
+  }
+  th {
+    background-color: #a16b6b;
+  }
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;

@@ -355,3 +355,7 @@ C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclara
 C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\PorTipoVacuna.razor.g.cs
 C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
 C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
+C:\Users\Administrador\Desktop\VacunateRD\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\PorTipoVacuna.razor.g.cs
+C:\Users\Administrador\Desktop\VacunateRD\obj\Debug\netcoreapp3.1\Razor\Pages\PorTipoVacuna.razor.g.cs
