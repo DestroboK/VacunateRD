@@ -9,11 +9,11 @@
 
 <div class="container">
 <EditForm Model ="@VacunadoX">
-<InputText placeholder="Cedula" class="form-group" @bind-Value="VacunadoX.Cedula">Cedula</InputText>
+<InputText placeholder="Cedula" class="form-group" @bind-Value="VacunadoX.Cedula" @oninput="Prob">Cedula</InputText>
 <InputText placeholder="Nombre" class="form-group" @bind-Value="VacunadoX.Nombre">Nombre</InputText>
 <InputText placeholder="Apellido" class="form-group" @bind-Value="VacunadoX.Apellido">Apellido</InputText>
 <InputText placeholder="Telefono" class="form-group" @bind-Value="VacunadoX.Telefono">Telefono</InputText>
-<InputText placeholder="@Zodiaco" class="form-group" @bind-Value="VacunadoX.signo_zodiaco">Signo zodiacal</InputText>
+<InputText placeholder="Signo zodiacal" class="form-group" @bind-Value="VacunadoX.signo_zodiaco">Signo zodiacal</InputText>
 <label>Fecha de la(s) dosis</label>
 <InputDate placeholder="Fecha de la dosis" @bind-Value = "VacunadoX.Fecha_Dosis" class="form-control">Fecha de la dosis</InputDate>
 <label>Fecha de nacimiento</label>
@@ -38,8 +38,6 @@
 @code {
     int dia_zodiaco, mes_zodiaco;
 
-
-  string Zodiaco = "Signo zodiacal";
   Vacunado VacunadoX = new Vacunado();
   List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
   List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
@@ -53,6 +51,15 @@
             context.SaveChanges();
         }
 
+    }
+
+    void Prob(){
+        using(VacunateRDContext contexto = new VacunateRDContext()){
+            if(contexto.Vacunados.Any(a => a.Cedula == VacunadoX.Cedula) == true){
+                Vacunado Temp = contexto.Vacunados.Where(e => e.Cedula == VacunadoX.Cedula).FirstOrDefault();
+                VacunadoX = Temp;
+            }
+        }
     }
     void DeterminarSigno(){
         dia_zodiaco = VacunadoX.Fecha_nacimiento.Date.Day;

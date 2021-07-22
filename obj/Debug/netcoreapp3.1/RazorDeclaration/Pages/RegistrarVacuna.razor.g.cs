@@ -95,8 +95,6 @@ using Vacunate_RD.Data;
        
     int dia_zodiaco, mes_zodiaco;
 
-
-  string Zodiaco = "Signo zodiacal";
   Vacunado VacunadoX = new Vacunado();
   List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
   List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
@@ -110,6 +108,15 @@ using Vacunate_RD.Data;
             context.SaveChanges();
         }
 
+    }
+
+    void Prob(){
+        using(VacunateRDContext contexto = new VacunateRDContext()){
+            if(contexto.Vacunados.Any(a => a.Cedula == VacunadoX.Cedula) == true){
+                Vacunado Temp = contexto.Vacunados.Where(e => e.Cedula == VacunadoX.Cedula).FirstOrDefault();
+                VacunadoX = Temp;
+            }
+        }
     }
     void DeterminarSigno(){
         dia_zodiaco = VacunadoX.Fecha_nacimiento.Date.Day;
