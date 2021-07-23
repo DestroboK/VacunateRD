@@ -1,5 +1,4 @@
 @page "/Registrar"
-
 <div class="container">
   <center>
     <h1>Registrar vacuna</h1>
@@ -9,11 +8,10 @@
 
 <div class="container">
 <EditForm Model ="@VacunadoX">
-
-</EditForm>
-<EditForm Model ="@VacunadoX">
-    <button type="submit" @onclick="Prob">Buscar</button>
+<div class ="form-group row">
 <InputText placeholder="Cedula" class="form-group" @bind-Value="VacunadoX.Cedula">Cedula</InputText>
+</div>
+    <button @onclick="Prob">Buscar</button>
 <InputText placeholder="Nombre" class="form-group" @bind-Value="VacunadoX.Nombre">Nombre</InputText>
 <InputText placeholder="Apellido" class="form-group" @bind-Value="VacunadoX.Apellido">Apellido</InputText>
 <InputText placeholder="Telefono" class="form-group" @bind-Value="VacunadoX.Telefono">Telefono</InputText>
@@ -25,7 +23,7 @@
 <InputSelect class="form-group" @bind-Value="VacunadoX.TipoVacuna">
 @foreach (Vacuna vac in GetVacuna)
     {
-        <option value ="@vac.Nombre">@vac.Nombre</option>
+        <option class="form-group" value ="@vac.Nombre">@vac.Nombre</option>
     }
 </InputSelect>
 
@@ -38,7 +36,12 @@
 </EditForm>
 
 @if(@DosisPrevias){
-    <p>Dosis previas:</p>
+    <div class="container">
+  <center>
+    <h1>Dosis previas</h1>
+    <hr style="background-color: white" class="mt-2" />
+  </center>
+</div>
     @foreach (Vacunado vacu in GetDosis){
         <p>Fecha: @vacu.Fecha_Dosis , Vacuna aplicada: @vacu.TipoVacuna, en @vacu.Provincia</p>
     }
