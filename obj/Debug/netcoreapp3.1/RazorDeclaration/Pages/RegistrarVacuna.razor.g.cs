@@ -105,13 +105,16 @@ using Radzen.Blazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\RegistrarVacuna.razor"
+#line 52 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\RegistrarVacuna.razor"
        
     int dia_zodiaco, mes_zodiaco;
+    bool DosisPrevias = false;
 
   Vacunado VacunadoX = new Vacunado();
   List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
   List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
+  List<Vacunado> GetDosis =new VacunateRDContext().Vacunados.ToList();
+
 
 
     void Registrar()
@@ -123,12 +126,18 @@ using Radzen.Blazor;
         }
 
     }
-
     void Prob(){
         using(VacunateRDContext contexto = new VacunateRDContext()){
             if(contexto.Vacunados.Any(a => a.Cedula == VacunadoX.Cedula) == true){
                 Vacunado Temp = contexto.Vacunados.Where(e => e.Cedula == VacunadoX.Cedula).FirstOrDefault();
-                VacunadoX = Temp;
+                VacunadoX.Nombre = Temp.Nombre;
+                VacunadoX.Apellido = Temp.Apellido;
+                VacunadoX.Telefono = Temp.Telefono;
+                VacunadoX.signo_zodiaco = Temp.signo_zodiaco;
+                VacunadoX.Fecha_nacimiento = Temp.Fecha_nacimiento;
+                
+                DosisPrevias=true;
+                GetDosis = new VacunateRDContext().Vacunados.Where(e => e.Cedula == VacunadoX.Cedula).ToList();
             }
         }
     }

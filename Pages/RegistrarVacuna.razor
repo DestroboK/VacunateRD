@@ -12,7 +12,8 @@
 
 </EditForm>
 <EditForm Model ="@VacunadoX">
-<InputText placeholder="Cedula" class="form-group" @bind-Value="VacunadoX.Cedula" @oninput="Prob">Cedula</InputText>
+    <button type="submit" @onclick="Prob">Buscar</button>
+<InputText placeholder="Cedula" class="form-group" @bind-Value="VacunadoX.Cedula">Cedula</InputText>
 <InputText placeholder="Nombre" class="form-group" @bind-Value="VacunadoX.Nombre">Nombre</InputText>
 <InputText placeholder="Apellido" class="form-group" @bind-Value="VacunadoX.Apellido">Apellido</InputText>
 <InputText placeholder="Telefono" class="form-group" @bind-Value="VacunadoX.Telefono">Telefono</InputText>
@@ -35,15 +36,28 @@
     }
 </InputSelect>
 </EditForm>
+
+@if(@DosisPrevias){
+    <p>Dosis previas:</p>
+    @foreach (Vacunado vacu in GetDosis){
+        <p>Fecha: @vacu.Fecha_Dosis , Vacuna aplicada: @vacu.TipoVacuna, en @vacu.Provincia</p>
+    }
+}
 </div>
 <button class="btn btn-dark mb-3 ml-2" @onclick="Registrar">Registrar vacunado</button>
 
+
+
+
 @code {
     int dia_zodiaco, mes_zodiaco;
+    bool DosisPrevias = false;
 
   Vacunado VacunadoX = new Vacunado();
   List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
   List<Vacuna> GetVacuna = new VacunateRDContext().Vacunas.ToList();
+  List<Vacunado> GetDosis =new VacunateRDContext().Vacunados.ToList();
+
 
 
     void Registrar()
@@ -55,12 +69,18 @@
         }
 
     }
-
     void Prob(){
         using(VacunateRDContext contexto = new VacunateRDContext()){
             if(contexto.Vacunados.Any(a => a.Cedula == VacunadoX.Cedula) == true){
                 Vacunado Temp = contexto.Vacunados.Where(e => e.Cedula == VacunadoX.Cedula).FirstOrDefault();
-                VacunadoX = Temp;
+                VacunadoX.Nombre = Temp.Nombre;
+                VacunadoX.Apellido = Temp.Apellido;
+                VacunadoX.Telefono = Temp.Telefono;
+                VacunadoX.signo_zodiaco = Temp.signo_zodiaco;
+                VacunadoX.Fecha_nacimiento = Temp.Fecha_nacimiento;
+                
+                DosisPrevias=true;
+                GetDosis = new VacunateRDContext().Vacunados.Where(e => e.Cedula == VacunadoX.Cedula).ToList();
             }
         }
     }
