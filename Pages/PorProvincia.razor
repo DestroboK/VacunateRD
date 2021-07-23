@@ -1,0 +1,61 @@
+@page "/por_provincia"
+<div class="container">
+  <center>
+    <h1>Vacunados por provincia</h1>
+    <hr style="background-color: white" class="mt-2" />
+  </center>
+</div>
+<EditForm Model ="@VacunadoX">
+<InputSelect class="form-group" @bind-Value="VacunadoX.Provincia">
+@foreach (Provincia prov in GetProvincias)
+    {
+        <option value ="@prov.Nombre">@prov.Nombre</option>
+    }
+</InputSelect>
+<button type="submit" @onclick="Buscar">Buscar</button>
+</EditForm>
+            <table class="table table-bordered mt-2">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Cedula</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Telefono</th>
+                        <th>Provincia</th>
+                        <th>Fecha nacimiento</th>
+                        <th>TipoVacuna</th>
+                        <th>Fecha Dosis</th>
+                        <th>Signo zodiaco</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Vacunado vacu in GetFiltro)
+                    {
+                        <tr>
+                            <td>@vacu.Id</td>
+                            <td>@vacu.Cedula</td>
+                            <td>@vacu.Nombre</td>
+                            <td>@vacu.Apellido</td>
+                            <td>@vacu.Telefono</td>
+                            <td>@vacu.Provincia</td>
+                            <td>@vacu.Fecha_nacimiento</td>
+                            <td>@vacu.TipoVacuna</td>
+                            <td>@vacu.Fecha_Dosis</td>
+                            <td>@vacu.signo_zodiaco</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+
+@code{
+  List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
+
+  Vacunado VacunadoX = new Vacunado();
+  List<Vacunado> GetFiltro = new VacunateRDContext().Vacunados.ToList();
+  void Buscar(){
+      GetFiltro = new VacunateRDContext().Vacunados.Where(x => x.Provincia.Contains(VacunadoX.Provincia)).ToList();
+        
+  }
+}

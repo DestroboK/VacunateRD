@@ -96,14 +96,29 @@ using Radzen.Blazor;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Acerca de")]
-    public partial class InformacionPersonal : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/por_provincia")]
+    public partial class PorProvincia : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 52 "C:\Users\Kelvin\Desktop\Tarea7y8\VacunateRD\Pages\PorProvincia.razor"
+      
+  List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
+
+  Vacunado VacunadoX = new Vacunado();
+  List<Vacunado> GetFiltro = new VacunateRDContext().Vacunados.ToList();
+  void Buscar(){
+      GetFiltro = new VacunateRDContext().Vacunados.Where(x => x.Provincia.Contains(VacunadoX.Provincia)).ToList();
+        
+  }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
