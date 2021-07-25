@@ -105,7 +105,7 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 24 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Zodiaco.razor"
+#line 28 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Zodiaco.razor"
       
     List<DataZodiaco> GetVacunados() =>
     (

@@ -26,6 +26,9 @@ a, .btn-link {
   th {
     background-color: #a16b6b;
   }
+  .separador3{
+    height: 30px;
+  }
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;

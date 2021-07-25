@@ -105,7 +105,7 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 135 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Consultavacu.razor"
+#line 140 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Consultavacu.razor"
       
     string filtroText =string.Empty;
     List<Vacunado> GetVacunados() => new VacunateRDContext().Vacunados.ToList();

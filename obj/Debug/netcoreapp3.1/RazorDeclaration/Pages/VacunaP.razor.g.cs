@@ -105,7 +105,7 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 56 "C:\Users\Administrador\Desktop\VacunateRD\Pages\VacunaP.razor"
+#line 60 "C:\Users\Administrador\Desktop\VacunateRD\Pages\VacunaP.razor"
       
     string Vacuna = "";
     int valo = 0;

@@ -105,7 +105,7 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 66 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Anular.razor"
+#line 70 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Anular.razor"
        
     string elegir;
     int valor = 0;

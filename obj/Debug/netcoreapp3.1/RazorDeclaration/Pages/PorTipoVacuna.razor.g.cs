@@ -105,7 +105,7 @@ using Radzen.Blazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 37 "C:\Users\Administrador\Desktop\VacunateRD\Pages\PorTipoVacuna.razor"
+#line 43 "C:\Users\Administrador\Desktop\VacunateRD\Pages\PorTipoVacuna.razor"
       
     List<DataTipoDeVacuna> GetVacunados=
     (
