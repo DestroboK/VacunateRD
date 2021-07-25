@@ -11,8 +11,7 @@ table {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-  }
-  
+  }  
   td, th {
     border: 1px solid #a19d6b;
     text-align: left;
@@ -47,4 +46,5 @@ table {
     .separador3{
       height: 10px;
     }
+
   

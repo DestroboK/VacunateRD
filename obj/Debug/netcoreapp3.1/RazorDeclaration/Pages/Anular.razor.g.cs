@@ -105,17 +105,17 @@ using Vacunate_RD.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 70 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Anular.razor"
+#line 61 "C:\Users\Administrador\Desktop\VacunateRD\Pages\Anular.razor"
        
     string elegir;
     int valor = 0;
 
-    public void Borrar(String varo)
+    public void Borrar()
     {
 
         using (VacunateRDContext con = new VacunateRDContext())
         {
-            con.Vacunados.RemoveRange(con.Vacunados.Where(x => x.Cedula == varo));
+            con.Vacunados.RemoveRange(con.Vacunados.Where(x => x.Id == int.Parse (elegir)));
             con.SaveChanges();
             valor = 1;
         }
@@ -123,18 +123,7 @@ using Vacunate_RD.Data;
 
     }
 
-    public void ValidarCedula()
-    {
-
-        if (elegir.Length >= 11)
-        {
-            Borrar(elegir);
-        }
-        else
-        {
-            valor = 5;
-        }
-    }
+    
 
     List<Vacunado> GetVacunados() => new VacunateRDContext().Vacunados.ToList();
 

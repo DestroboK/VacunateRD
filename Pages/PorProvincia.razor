@@ -3,16 +3,16 @@
   <center>
     <h1>Vacunados por provincia</h1>
     <hr style="background-color: white" class="mt-2" />
-  </center>
-</div>
+ 
 <EditForm Model ="@VacunadoX">
-<InputSelect class="form-group" @bind-Value="VacunadoX.Provincia">
+<InputSelect style="width: 25%;" class="form-control ml-2" @bind-Value="VacunadoX.Provincia">
 @foreach (Provincia prov in GetProvincias)
     {
         <option value ="@prov.Nombre">@prov.Nombre</option>
     }
 </InputSelect>
-<button type="submit" @onclick="Buscar">Buscar</button>
+
+<button class="btn btn-warning" type="submit" @onclick="Buscar">Buscar</button>
 </EditForm>
             <table class="table table-bordered mt-2">
                 <thead>
@@ -48,6 +48,8 @@
 
                 </tbody>
             </table>
+</center>
+</div>
 
 @code{
   List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();

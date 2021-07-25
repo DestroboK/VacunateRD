@@ -15,20 +15,11 @@
 
 <div class="container">
     <div id="paw" class="row ml-auto">
-        <input style="width: 25%;" type="text" class="form-control ml-2" @bind-value="elegir" placeholder="Cedula">
-        <button class="btn btn-warning ml-2 mb-3" @onclick="ValidarCedula">Eliminar</button>
+        <input style="width: 25%;" type="text" class="form-control ml-2" @bind-value="elegir" placeholder="Id">
+        <button class="btn btn-warning ml-2 mb-3" @onclick="Borrar">Eliminar</button>
         <br>
     </div>
 </div>
-
-@if (@valor == 1)
-{
-    <div class="alert alert-success mt-2 mb-3" role="alert">Registro eliminado</div>
-}
-else if (@valor == 5)
-{
-    <div class="alert alert-danger mt-2 mb-3" role="alert">Favor de ingresar todos los numeros de la cédula</div>
-}
 
 <table class="table table-bordered mt-2">
     <thead>
@@ -71,12 +62,12 @@ else if (@valor == 5)
     string elegir;
     int valor = 0;
 
-    public void Borrar(String varo)
+    public void Borrar()
     {
 
         using (VacunateRDContext con = new VacunateRDContext())
         {
-            con.Vacunados.RemoveRange(con.Vacunados.Where(x => x.Cedula == varo));
+            con.Vacunados.RemoveRange(con.Vacunados.Where(x => x.Id == int.Parse (elegir)));
             con.SaveChanges();
             valor = 1;
         }
@@ -84,18 +75,7 @@ else if (@valor == 5)
 
     }
 
-    public void ValidarCedula()
-    {
-
-        if (elegir.Length >= 11)
-        {
-            Borrar(elegir);
-        }
-        else
-        {
-            valor = 5;
-        }
-    }
+    
 
     List<Vacunado> GetVacunados() => new VacunateRDContext().Vacunados.ToList();
 }

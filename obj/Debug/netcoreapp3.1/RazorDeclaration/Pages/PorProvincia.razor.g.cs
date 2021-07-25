@@ -105,7 +105,7 @@ using Radzen.Blazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 52 "C:\Users\Administrador\Desktop\VacunateRD\Pages\PorProvincia.razor"
+#line 54 "C:\Users\Administrador\Desktop\VacunateRD\Pages\PorProvincia.razor"
       
   List<Provincia> GetProvincias = new VacunateRDContext().Provincias.ToList();
 

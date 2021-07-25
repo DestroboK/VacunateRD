@@ -9,25 +9,27 @@
 <div class="container">
 <EditForm Model ="@VacunadoX">
 <div class ="form-group row">
-<InputText placeholder="Cedula" class="form-group" @bind-Value="VacunadoX.Cedula">Cedula</InputText>
+    <button class="btn btn-warning" @onclick="Prob">Buscar</button>
+<InputText style="width: 25%;" placeholder="Cedula" class="form-control ml-2" @bind-Value="VacunadoX.Cedula">Cedula</InputText>
 </div>
-    <button @onclick="Prob">Buscar</button>
+<div class ="form-group row">
 <InputText placeholder="Nombre" class="form-group" @bind-Value="VacunadoX.Nombre">Nombre</InputText>
 <InputText placeholder="Apellido" class="form-group" @bind-Value="VacunadoX.Apellido">Apellido</InputText>
 <InputText placeholder="Telefono" class="form-group" @bind-Value="VacunadoX.Telefono">Telefono</InputText>
 <InputText placeholder="Signo zodiacal" class="form-group" @bind-Value="VacunadoX.signo_zodiaco">Signo zodiacal</InputText>
-<label>Fecha de la(s) dosis</label>
-<InputDate placeholder="Fecha de la dosis" @bind-Value = "VacunadoX.Fecha_Dosis" class="form-control">Fecha de la dosis</InputDate>
+</div>
 <label>Fecha de nacimiento</label>
 <InputDate placeholder="Fecha de nacimiento" @bind-Value = "VacunadoX.Fecha_nacimiento" class="form-control" @oninput="DeterminarSigno">Fecha de nacimiento</InputDate>
-<InputSelect class="form-group" @bind-Value="VacunadoX.TipoVacuna">
+<label>Fecha de la(s) dosis</label>
+<InputDate placeholder="Fecha de la dosis" @bind-Value = "VacunadoX.Fecha_Dosis" class="form-control">Fecha de la dosis</InputDate>
+<InputSelect  style="width: 25%;" class="form-control ml-2" @bind-Value="VacunadoX.TipoVacuna">
 @foreach (Vacuna vac in GetVacuna)
     {
         <option class="form-group" value ="@vac.Nombre">@vac.Nombre</option>
     }
 </InputSelect>
 
-<InputSelect class="form-group" @bind-Value="VacunadoX.Provincia">
+<InputSelect  style="width: 25%;" class="form-control ml-2" @bind-Value="VacunadoX.Provincia">
 @foreach (Provincia prov in GetProvincias)
     {
         <option value ="@prov.Nombre">@prov.Nombre</option>
@@ -46,8 +48,9 @@
         <p>Fecha: @vacu.Fecha_Dosis , Vacuna aplicada: @vacu.TipoVacuna, en @vacu.Provincia</p>
     }
 }
+<button class="btn btn-primary" @onclick="Registrar">Registrar vacunado</button>
 </div>
-<button class="btn btn-dark mb-3 ml-2" @onclick="Registrar">Registrar vacunado</button>
+
 
 
 

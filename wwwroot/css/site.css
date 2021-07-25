@@ -14,6 +14,9 @@ a, .btn-link {
     margin-left: auto;
     margin-right: auto;
   }
+  .Es{
+    color: rgb(1, 4, 7);
+  }
   
   th, td{
     border: 1px solid #a19d6b;
@@ -38,6 +41,9 @@ a, .btn-link {
     color: rgb(1, 4, 7);
 }
 .form-group > option{
+    color: rgb(1, 4, 7);
+}
+.form-control > option{
     color: rgb(1, 4, 7);
 }
 

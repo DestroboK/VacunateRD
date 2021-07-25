@@ -105,7 +105,7 @@ using Radzen.Blazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 55 "C:\Users\Administrador\Desktop\VacunateRD\Pages\RegistrarVacuna.razor"
+#line 58 "C:\Users\Administrador\Desktop\VacunateRD\Pages\RegistrarVacuna.razor"
        
     int dia_zodiaco, mes_zodiaco;
     bool DosisPrevias = false;
